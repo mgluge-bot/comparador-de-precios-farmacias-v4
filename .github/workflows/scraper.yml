@@ -2,19 +2,22 @@ name: scraper precios
 
 on:
   schedule:
-    - cron: '0 10 * * *'   # todos los días a las 10:00 UTC (07:00 Argentina)
-  workflow_dispatch:         # permite correrlo manualmente desde GitHub
+    - cron: '0 10 * * *'
+  workflow_dispatch:
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write        # necesario para que el bot pueda hacer push
+
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4        # v4 usa Node.js 24, sin warnings
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5   # v5 usa Node.js 24, sin warnings
         with:
           python-version: '3.11'
 
