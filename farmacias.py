@@ -188,23 +188,10 @@ class SelmaScraper(FarmaciaScraper):
 
 
 # ---------------------------------------------------------------------------
-# Central Oeste  (PENDIENTE — completar selectores tras inspección)
+# CENTRAL OESTE (HTML estático) —--------------------------
 # ---------------------------------------------------------------------------
 
 class CentralOesteScraper(FarmaciaScraper):
-    """
-    Central Oeste — selectores a confirmar inspeccionando el HTML.
-
-    INSTRUCCIONES PARA COMPLETAR:
-      1. Abrí un producto en Chrome → clic derecho en el precio → Inspeccionar.
-      2. Buscá el atributo class del elemento con el precio de oferta.
-      3. Buscá el precio tachado (lista) si existe.
-      4. Reemplazá los TODO de abajo con los selectores reales.
-
-    Si el sitio renderiza con JavaScript (los precios no aparecen en
-    "Ver código fuente"), cambiá _fetch por un método con Selenium
-    similar al de FarmacityScraper y pasá el driver en __init__.
-    """
 
     nombre = "central_oeste"
 
@@ -223,58 +210,47 @@ class CentralOesteScraper(FarmaciaScraper):
         html = self._fetch(url)
         soup = BeautifulSoup(html, "html.parser")
 
-        # TODO: reemplazar con el selector CSS real del precio de oferta
-        precio_elem = soup.select_one("TODO_SELECTOR_PRECIO_OFERTA")
-        precio = limpiar_precio(precio_elem.get_text()) if precio_elem else None
-
-        # TODO: reemplazar con el selector CSS real del precio lista (tachado)
-        lista_elem = soup.select_one("TODO_SELECTOR_PRECIO_LISTA")
-        lista = limpiar_precio(lista_elem.get_text()) if lista_elem else None
-
+        precios = soup.select("span.price")  # trae TODOS los span.price
+        precio = limpiar_precio(precios[0].get_text()) if len(precios) > 0 else None
+        lista  = limpiar_precio(precios[1].get_text()) if len(precios) > 1 else None
+    
         return precio, lista
 
+# ---------------------------------------------------------------------------
+# FarmaOnline  (VTEX — requiere Selenium)
+# ---------------------------------------------------------------------------
 
-# ---------------------------------------------------------------------------
-# FarmaOnline  (PENDIENTE — completar selectores tras inspección)
-# ---------------------------------------------------------------------------
 
 class FarmaOnlineScraper(FarmaciaScraper):
     """
-    FarmaOnline — selectores a confirmar inspeccionando el HTML.
-
-    Es probable que sea Prestashop. Selectores comunes de Prestashop:
-      - Precio oferta: span.current-price-value  o  span[itemprop="price"]
-      - Precio lista:  span.regular-price
-
-    INSTRUCCIONES PARA COMPLETAR: ídem CentralOesteScraper.
-    Si el HTML estático no contiene los precios, se necesita Selenium.
+    FarmaOnline corre sobre VTEX (igual que Farmacity).
+    Requiere Selenium — los precios se renderizan con JavaScript.
     """
-
     nombre = "farmaonline"
 
-    @retry(
-        retry=retry_if_exception_type(requests.RequestException),
-        stop=stop_after_attempt(3),
-        wait=wait_exponential(multiplier=1, min=2, max=10),
-        reraise=True,
-    )
-    def _fetch(self, url: str) -> str:
-        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-        r.raise_for_status()
-        return r.text
+    def __init__(self, driver):
+        super().__init__()
+        self.driver = driver
+        self.wait = WebDriverWait(driver, TIMEOUT)
 
     def _scrape(self, url: str) -> tuple[float | None, float | None]:
-        html = self._fetch(url)
-        soup = BeautifulSoup(html, "html.parser")
+        self.driver.get(url)
 
-        # Intento con selectores típicos de Prestashop
-        precio_elem = (
-            soup.select_one("span.current-price-value")
-            or soup.select_one("span[itemprop='price']")
+        precio_elem = self.wait.until(
+            EC.presence_of_element_located(
+                (By.CSS_SELECTOR, ".vtex-product-price-1-x-sellingPriceValue")
+            )
         )
-        precio = limpiar_precio(precio_elem.get_text()) if precio_elem else None
+        precio = limpiar_precio(precio_elem.text)
 
-        lista_elem = soup.select_one("span.regular-price")
-        lista = limpiar_precio(lista_elem.get_text()) if lista_elem else None
+        lista = None
+        try:
+            lista_elems = self.driver.find_elements(
+                By.CSS_SELECTOR, ".vtex-product-price-1-x-listPrice"
+            )
+            if lista_elems:
+                lista = limpiar_precio(lista_elems[0].text)
+        except Exception:
+            pass
 
         return precio, lista
