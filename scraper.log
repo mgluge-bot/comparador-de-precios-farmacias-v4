@@ -1,0 +1,97 @@
+2026-05-30 23:11:24 | INFO     | scraper | ============================================================
+2026-05-30 23:11:24 | INFO     | scraper | Iniciando scraper
+2026-05-30 23:11:24 | INFO     | scraper | SKUs ya conocidos: 0
+2026-05-30 23:11:24 | INFO     | scraper | Iniciando ChromeDriver...
+2026-05-30 23:11:34 | INFO     | scraper | ── Scrapeando: Nivea Sun Tono Medio
+2026-05-30 23:11:39 | INFO     | scraper.farmacity | OK | precio=28339.0 | lista=19834.0 | https://www.farmacity.com/protector-solar-nivea-sun-tono-medio-fps-50-x-40-ml/p
+2026-05-30 23:11:44 | INFO     | scraper.farmaonline | OK | precio=26225.13 | lista=None | https://www.farmaonline.com/nivea-8138014/p
+2026-05-30 23:11:44 | INFO     | scraper.central_oeste | OK | precio=20930.0 | lista=17297.52 | https://www.centraloeste.com.ar/4006000172521-nivea-sun-ultra-light-daily-fluid-tono-medio-fps-50-facial.html
+2026-05-30 23:11:44 | INFO     | scraper.selma | OK | precio=30515.0 | lista=30515.0 | https://selmadigital.com/p/protector-solar-facial-nivea-sun-ultra-light-daily-fluid-tono-medio-fps50-40-ml/8118c7f9-6892-47e5-ac4e-0fa1af236362
+2026-05-30 23:11:45 | INFO     | scraper.farmaplus | OK | precio=28338.0 | lista=None | https://www.farmaplus.com.ar/protector-solar-facial-nivea-sun-ultra-light-daily-fluid-tono-medio-fps-50--para-todo-tipo-de-piel-x-40-ml/p
+2026-05-30 23:11:46 | WARNING  | scraper.farmaplus | SKU no encontrado en https://www.farmaplus.com.ar/protector-solar-facial-nivea-sun-ultra-light-daily-fluid-tono-medio-fps-50--para-todo-tipo-de-piel-x-40-ml/p
+2026-05-30 23:11:46 | WARNING  | scraper | No se pudo obtener SKU para: Nivea Sun Tono Medio
+2026-05-30 23:11:46 | DEBUG    | scraper | Fila generada: {'fecha': '2026-05-30', 'producto': 'Nivea Sun Tono Medio', 'sku': None, 'precio_farmacity': 28339.0, 'lista_farmacity': 19834.0, 'precio_farmaplus': 28338.0, 'lista_farmaplus': None, 'precio_selma': 30515.0, 'lista_selma': 30515.0, 'precio_central_oeste': 20930.0, 'lista_central_oeste': 17297.52, 'precio_farmaonline': 26225.13, 'lista_farmaonline': None}
+2026-05-30 23:11:46 | INFO     | scraper | ── Scrapeando: Vichy Capital Soleil
+2026-05-30 23:11:49 | INFO     | scraper.farmacity | OK | precio=83852.0 | lista=None | https://www.farmacity.com/aceite-solar-invisible-vichy-capital-soleil-cell-protect-spf-50-x-200-ml/p
+2026-05-30 23:11:55 | INFO     | scraper.farmaonline | OK | precio=83852.0 | lista=None | https://www.farmaonline.com/vichy-8138570/p
+2026-05-30 23:11:55 | DEBUG    | scraper.central_oeste | URL no configurada para este producto.
+2026-05-30 23:11:56 | INFO     | scraper.selma | OK | precio=60973.0 | lista=87118.0 | https://selmadigital.com/p/capital-solei-fps-50-cell-protect-spray-x-200-ml/4096eb08-cf6c-47e0-a812-0a59ed6a4104
+2026-05-30 23:11:57 | INFO     | scraper.farmaplus | OK | precio=58696.0 | lista=83852.0 | https://www.farmaplus.com.ar/vichy-capital-soleil-oil-invisible-cell-protect-spf50-200ml/p
+2026-05-30 23:11:57 | WARNING  | scraper.farmaplus | SKU no encontrado en https://www.farmaplus.com.ar/vichy-capital-soleil-oil-invisible-cell-protect-spf50-200ml/p
+2026-05-30 23:11:57 | WARNING  | scraper | No se pudo obtener SKU para: Vichy Capital Soleil
+2026-05-30 23:11:57 | DEBUG    | scraper | Fila generada: {'fecha': '2026-05-30', 'producto': 'Vichy Capital Soleil', 'sku': None, 'precio_farmacity': 83852.0, 'lista_farmacity': None, 'precio_farmaplus': 58696.0, 'lista_farmaplus': 83852.0, 'precio_selma': 60973.0, 'lista_selma': 87118.0, 'precio_central_oeste': None, 'lista_central_oeste': None, 'precio_farmaonline': 83852.0, 'lista_farmaonline': None}
+2026-05-30 23:11:57 | INFO     | scraper | ── Scrapeando: Caviahue Contorno de Ojos
+2026-05-30 23:12:01 | INFO     | scraper.farmacity | OK | precio=59000.0 | lista=None | https://www.farmacity.com/contorno-de-ojos-caviahue-vitamina-k3-x-15-g/p
+2026-05-30 23:12:04 | INFO     | scraper.farmaonline | OK | precio=41300.0 | lista=59000.0 | https://www.farmaonline.com/caviahue-8126859/p
+2026-05-30 23:12:05 | INFO     | scraper.selma | OK | precio=41298.0 | lista=59000.0 | https://selmadigital.com/p/contorno-de-ojos-vitamina-k3-crema-x-15-gramos/64ec1ceb-cf50-4250-9f39-a217abb608a1
+2026-05-30 23:12:06 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/caviahue-contorno-de-ojos-con-vitamina-k3-15-gr-barr/p
+2026-05-30 23:12:06 | INFO     | scraper.central_oeste | OK | precio=39200.0 | lista=32396.69 | https://www.centraloeste.com.ar/7798120266446-contorno-de-ojos-caviahue-vitamina-k3.html
+2026-05-30 23:12:06 | WARNING  | scraper.farmaplus | SKU no encontrado en https://www.farmaplus.com.ar/caviahue-contorno-de-ojos-con-vitamina-k3-15-gr-barr/p
+2026-05-30 23:12:06 | WARNING  | scraper | No se pudo obtener SKU para: Caviahue Contorno de Ojos
+2026-05-30 23:12:06 | DEBUG    | scraper | Fila generada: {'fecha': '2026-05-30', 'producto': 'Caviahue Contorno de Ojos', 'sku': None, 'precio_farmacity': 59000.0, 'lista_farmacity': None, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': 41298.0, 'lista_selma': 59000.0, 'precio_central_oeste': 39200.0, 'lista_central_oeste': 32396.69, 'precio_farmaonline': 41300.0, 'lista_farmaonline': 59000.0}
+2026-05-30 23:12:06 | INFO     | scraper | ── Scrapeando: Maybelline Rubor Líquido Face Sunkisser
+2026-05-30 23:12:10 | INFO     | scraper.farmacity | OK | precio=22194.0 | lista=36990.0 | https://www.farmacity.com/rubor-liquido-maybelline-sunkisser-mate-x-4-7-ml/p
+2026-05-30 23:12:13 | INFO     | scraper.farmaonline | OK | precio=36990.0 | lista=None | https://www.farmaonline.com/maybelline-8138323/p?skuId=8138323
+2026-05-30 23:12:13 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-05-30 23:12:13 | INFO     | scraper.central_oeste | OK | precio=18495.0 | lista=15285.12 | https://www.centraloeste.com.ar/3600531694180-rubor-maybelline-liq-sunkisser-30-mirage.html
+2026-05-30 23:12:14 | INFO     | scraper.farmaplus | OK | precio=22194.0 | lista=36990.0 | https://www.farmaplus.com.ar/maybelline-rubor-liquido-sunkisser-matte-blush/p
+2026-05-30 23:12:14 | WARNING  | scraper.farmaplus | SKU no encontrado en https://www.farmaplus.com.ar/maybelline-rubor-liquido-sunkisser-matte-blush/p
+2026-05-30 23:12:14 | WARNING  | scraper | No se pudo obtener SKU para: Maybelline Rubor Líquido Face Sunkisser
+2026-05-30 23:12:14 | DEBUG    | scraper | Fila generada: {'fecha': '2026-05-30', 'producto': 'Maybelline Rubor Líquido Face Sunkisser', 'sku': None, 'precio_farmacity': 22194.0, 'lista_farmacity': 36990.0, 'precio_farmaplus': 22194.0, 'lista_farmaplus': 36990.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 18495.0, 'lista_central_oeste': 15285.12, 'precio_farmaonline': 36990.0, 'lista_farmaonline': None}
+2026-05-30 23:12:14 | INFO     | scraper | ── Scrapeando: Isdin Fusion Water Magic
+2026-05-30 23:12:17 | INFO     | scraper.farmacity | OK | precio=73446.0 | lista=None | https://www.farmacity.com/protector-solar-facial-isdin-fotoprotector-fusion-water-magic-x-50-ml/p
+2026-05-30 23:12:20 | INFO     | scraper.farmaonline | OK | precio=47739.33 | lista=73445.12 | https://www.farmaonline.com/isdin-8129023/p
+2026-05-30 23:12:21 | INFO     | scraper.central_oeste | OK | precio=47742.5 | lista=39456.61 | https://www.centraloeste.com.ar/8429420248977-protector-solar-isdin-foto-fusion-water-magic-fps50-x50ml.html
+2026-05-30 23:12:21 | INFO     | scraper.selma | OK | precio=47724.0 | lista=73445.0 | https://selmadigital.com/p/fotoprotector-spf50-fusion-water-magic-50ml/10c1444c-bf32-431f-b1f9-517d5a300bcb
+2026-05-30 23:12:21 | INFO     | scraper.farmaplus | OK | precio=47739.0 | lista=73445.0 | https://www.farmaplus.com.ar/isdin-fusion-water-magic-fotoprotector-solar-fps50-50ml/p
+2026-05-30 23:12:21 | WARNING  | scraper.farmaplus | SKU no encontrado en https://www.farmaplus.com.ar/isdin-fusion-water-magic-fotoprotector-solar-fps50-50ml/p
+2026-05-30 23:12:21 | WARNING  | scraper | No se pudo obtener SKU para: Isdin Fusion Water Magic
+2026-05-30 23:12:21 | DEBUG    | scraper | Fila generada: {'fecha': '2026-05-30', 'producto': 'Isdin Fusion Water Magic', 'sku': None, 'precio_farmacity': 73446.0, 'lista_farmacity': None, 'precio_farmaplus': 47739.0, 'lista_farmaplus': 73445.0, 'precio_selma': 47724.0, 'lista_selma': 73445.0, 'precio_central_oeste': 47742.5, 'lista_central_oeste': 39456.61, 'precio_farmaonline': 47739.33, 'lista_farmaonline': 73445.12}
+2026-05-30 23:12:21 | INFO     | scraper | ── Scrapeando: 102 Magnesio Citrato Vitaminas Y Minerales Gummies 90 Unidades
+2026-05-30 23:12:25 | INFO     | scraper.farmacity | OK | precio=21164.0 | lista=None | https://www.farmacity.com/magnesio-102-gummies-x-90/p
+2026-05-30 23:12:28 | INFO     | scraper.farmaonline | OK | precio=21166.79 | lista=None | https://www.farmaonline.com/102-a%C3%B1os-8134265/p
+2026-05-30 23:12:29 | INFO     | scraper.selma | OK | precio=17780.0 | lista=21166.0 | https://selmadigital.com/p/102-magnesio-gummies-x90-gomitas/64339877-0c71-43b8-ac2a-81ac7594cbb4
+2026-05-30 23:12:29 | INFO     | scraper.central_oeste | OK | precio=14816.75 | lista=12245.25 | https://www.centraloeste.com.ar/7791984001529-102-magnesio-gummies-gomitas-x-90.html
+2026-05-30 23:12:29 | INFO     | scraper.farmaplus | OK | precio=14816.0 | lista=21166.0 | https://www.farmaplus.com.ar/102-magnesio-citrato-vitaminas-y-minerales-gummies-90-uds/p
+2026-05-30 23:12:30 | INFO     | scraper.farmaplus | SKU encontrado: 102 | https://www.farmaplus.com.ar/102-magnesio-citrato-vitaminas-y-minerales-gummies-90-uds/p
+2026-05-30 23:12:30 | INFO     | scraper | SKU nuevo obtenido: 102
+2026-05-30 23:12:30 | DEBUG    | scraper | Fila generada: {'fecha': '2026-05-30', 'producto': '102 Magnesio Citrato Vitaminas Y Minerales Gummies 90 Unidades', 'sku': '102', 'precio_farmacity': 21164.0, 'lista_farmacity': None, 'precio_farmaplus': 14816.0, 'lista_farmaplus': 21166.0, 'precio_selma': 17780.0, 'lista_selma': 21166.0, 'precio_central_oeste': 14816.75, 'lista_central_oeste': 12245.25, 'precio_farmaonline': 21166.79, 'lista_farmaonline': None}
+2026-05-30 23:12:30 | INFO     | scraper | ── Scrapeando: Serum Ojos Anti Ojeras Glycolic Bright L´Oreal Paris
+2026-05-30 23:12:33 | INFO     | scraper.farmacity | OK | precio=42990.0 | lista=None | https://www.farmacity.com/serum-ojos-loreal-glycolic-bright-x-20-ml/p
+2026-05-30 23:12:36 | INFO     | scraper.farmaonline | OK | precio=42990.0 | lista=None | https://www.farmaonline.com/loreal-paris-8137185/p
+2026-05-30 23:12:37 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-05-30 23:12:37 | INFO     | scraper.central_oeste | OK | precio=43000.0 | lista=35537.19 | https://www.centraloeste.com.ar/7509552962512-contorno-de-ojos-glycolic-x20ml.html
+2026-05-30 23:12:38 | INFO     | scraper.farmaplus | OK | precio=42990.0 | lista=None | https://www.farmaplus.com.ar/serum-ojos-anti-ojeras-glycolic-bright-l-oreal-paris-20-ml/p
+2026-05-30 23:12:38 | WARNING  | scraper.farmaplus | SKU no encontrado en https://www.farmaplus.com.ar/serum-ojos-anti-ojeras-glycolic-bright-l-oreal-paris-20-ml/p
+2026-05-30 23:12:38 | WARNING  | scraper | No se pudo obtener SKU para: Serum Ojos Anti Ojeras Glycolic Bright L´Oreal Paris
+2026-05-30 23:12:38 | DEBUG    | scraper | Fila generada: {'fecha': '2026-05-30', 'producto': 'Serum Ojos Anti Ojeras Glycolic Bright L´Oreal Paris', 'sku': None, 'precio_farmacity': 42990.0, 'lista_farmacity': None, 'precio_farmaplus': 42990.0, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 43000.0, 'lista_central_oeste': 35537.19, 'precio_farmaonline': 42990.0, 'lista_farmaonline': None}
+2026-05-30 23:12:38 | INFO     | scraper | ── Scrapeando: Brillo Labial Voluminizador Maybelline Lifter Plump
+2026-05-30 23:12:42 | INFO     | scraper.farmacity | OK | precio=32990.0 | lista=18890.0 | https://www.farmacity.com/brillo-labial-maybelline-lifter-plump-x-5-4-ml/p
+2026-05-30 23:12:45 | INFO     | scraper.farmaonline | OK | precio=32990.0 | lista=None | https://www.farmaonline.com/maybelline-8137172/p?skuId=8137172
+2026-05-30 23:12:45 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-05-30 23:12:45 | INFO     | scraper.central_oeste | OK | precio=33799.99 | lista=27933.88 | https://www.centraloeste.com.ar/41554080704-mby-brillo-labial-plump-blush-blaze.html
+2026-05-30 23:12:47 | INFO     | scraper.farmaplus | OK | precio=32990.0 | lista=None | https://www.farmaplus.com.ar/brillo-labial-voluminizador-maybelline-lifter-plump/p
+2026-05-30 23:12:47 | WARNING  | scraper.farmaplus | SKU no encontrado en https://www.farmaplus.com.ar/brillo-labial-voluminizador-maybelline-lifter-plump/p
+2026-05-30 23:12:47 | WARNING  | scraper | No se pudo obtener SKU para: Brillo Labial Voluminizador Maybelline Lifter Plump
+2026-05-30 23:12:47 | DEBUG    | scraper | Fila generada: {'fecha': '2026-05-30', 'producto': 'Brillo Labial Voluminizador Maybelline Lifter Plump', 'sku': None, 'precio_farmacity': 32990.0, 'lista_farmacity': 18890.0, 'precio_farmaplus': 32990.0, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 33799.99, 'lista_central_oeste': 27933.88, 'precio_farmaonline': 32990.0, 'lista_farmaonline': None}
+2026-05-30 23:12:47 | INFO     | scraper | ── Scrapeando: L'oréal Paris Revitalift Sérum Ácido Hialurónico 30ml
+2026-05-30 23:12:51 | INFO     | scraper.farmacity | OK | precio=28194.0 | lista=46990.0 | https://www.farmacity.com/serum-rellenador-loreal-paris-revitalift-acido-hialuronico-x-30-ml/p
+2026-05-30 23:12:54 | INFO     | scraper.farmaonline | OK | precio=28194.0 | lista=46990.0 | https://www.farmaonline.com/loreal-paris-serum-cido-hialurnico-revitalift-30-ml-8043361/p
+2026-05-30 23:12:54 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-05-30 23:12:55 | INFO     | scraper.central_oeste | OK | precio=28200.0 | lista=23305.79 | https://www.centraloeste.com.ar/7509552843620-serum-facial-loreal-revitalift-hialuronica-x30ml.html
+2026-05-30 23:12:56 | INFO     | scraper.farmaplus | OK | precio=28194.0 | lista=46990.0 | https://www.farmaplus.com.ar/loreal-paris-revitalift-serum-acido-hialuronico-30ml/p
+2026-05-30 23:12:56 | WARNING  | scraper.farmaplus | SKU no encontrado en https://www.farmaplus.com.ar/loreal-paris-revitalift-serum-acido-hialuronico-30ml/p
+2026-05-30 23:12:56 | WARNING  | scraper | No se pudo obtener SKU para: L'oréal Paris Revitalift Sérum Ácido Hialurónico 30ml
+2026-05-30 23:12:56 | DEBUG    | scraper | Fila generada: {'fecha': '2026-05-30', 'producto': "L'oréal Paris Revitalift Sérum Ácido Hialurónico 30ml", 'sku': None, 'precio_farmacity': 28194.0, 'lista_farmacity': 46990.0, 'precio_farmaplus': 28194.0, 'lista_farmaplus': 46990.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 28200.0, 'lista_central_oeste': 23305.79, 'precio_farmaonline': 28194.0, 'lista_farmaonline': 46990.0}
+2026-05-30 23:12:56 | INFO     | scraper | ── Scrapeando: Agua Micelar Skin Active Con Ácido Salicílico 400ml
+2026-05-30 23:13:00 | INFO     | scraper.farmacity | OK | precio=14293.0 | lista=21990.0 | https://www.farmacity.com/agua-micelar-skin-garnier-con-acido-salicilico-x-400-ml/p
+2026-05-30 23:13:03 | INFO     | scraper.farmaonline | OK | precio=14293.5 | lista=21990.0 | https://www.farmaonline.com/garnier-8131869/p
+2026-05-30 23:13:03 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-05-30 23:13:03 | DEBUG    | scraper.central_oeste | URL no configurada para este producto.
+2026-05-30 23:13:05 | INFO     | scraper.farmaplus | OK | precio=14293.0 | lista=21990.0 | https://www.farmaplus.com.ar/agua-micelar-garnier-skin-active-con-acido-salicilico-400ml/p
+2026-05-30 23:13:05 | WARNING  | scraper.farmaplus | SKU no encontrado en https://www.farmaplus.com.ar/agua-micelar-garnier-skin-active-con-acido-salicilico-400ml/p
+2026-05-30 23:13:05 | WARNING  | scraper | No se pudo obtener SKU para: Agua Micelar Skin Active Con Ácido Salicílico 400ml
+2026-05-30 23:13:05 | DEBUG    | scraper | Fila generada: {'fecha': '2026-05-30', 'producto': 'Agua Micelar Skin Active Con Ácido Salicílico 400ml', 'sku': None, 'precio_farmacity': 14293.0, 'lista_farmacity': 21990.0, 'precio_farmaplus': 14293.0, 'lista_farmaplus': 21990.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': None, 'lista_central_oeste': None, 'precio_farmaonline': 14293.5, 'lista_farmaonline': 21990.0}
+2026-05-30 23:13:05 | INFO     | scraper | ChromeDriver cerrado.
+2026-05-30 23:13:05 | INFO     | scraper | CSV actualizado: precios.csv (10 filas nuevas)
+2026-05-30 23:13:05 | INFO     | scraper | Scraper finalizado exitosamente.
