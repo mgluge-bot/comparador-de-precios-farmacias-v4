@@ -1,0 +1,33 @@
+name: scraper precios
+
+on:
+  schedule:
+    - cron: '0 10 * * *'   # todos los días a las 10:00 UTC (07:00 Argentina)
+  workflow_dispatch:         # permite correrlo manualmente desde GitHub
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar scraper
+        run: python scraper.py
+
+      - name: Commit resultados
+        run: |
+          git config --global user.name "bot-precios"
+          git config --global user.email "bot@github.com"
+          git add precios.csv scraper.log
+          git commit -m "actualizacion diaria precios $(date +'%Y-%m-%d')" || echo "sin cambios"
+          git push
