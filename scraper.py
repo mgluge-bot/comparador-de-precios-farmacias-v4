@@ -181,7 +181,7 @@ def main():
     farmaplus    = FarmaPlusScraper()
     selma        = SelmaScraper()
     central_oeste = CentralOesteScraper()
-    farmaonline  = FarmaOnlineScraper()
+    farmaonline  = FarmaOnlineScraper(driver)
 
     rows = []
     try:
