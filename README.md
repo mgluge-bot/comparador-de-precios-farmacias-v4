@@ -11,3 +11,12 @@
 ## Objetivo
 
 Automatizar la recolección de precios de productos farmacéuticos para facilitar análisis comparativos y monitoreo del mercado.
+
+## Estructura
+
+📁 proyecto/
+├── scraper.py          ← script principal (orquesta todo)
+├── farmacias.py        ← una clase por farmacia
+├── productos.json      ← configuración de productos y URLs
+├── utils.py            ← helpers: logging, limpieza de precios
+└── precios.csv         ← output
