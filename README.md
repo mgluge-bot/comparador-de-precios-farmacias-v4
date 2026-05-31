@@ -15,6 +15,7 @@ Automatizar la recolección de precios de productos farmacéuticos para facilita
 ## Estructura
 
 📁 proyecto/
+
 ├── scraper.py          ← script principal (orquesta todo)
 
 ├── farmacias.py        ← una clase por farmacia
