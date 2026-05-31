@@ -16,7 +16,11 @@ Automatizar la recolección de precios de productos farmacéuticos para facilita
 
 📁 proyecto/
 ├── scraper.py          ← script principal (orquesta todo)
+
 ├── farmacias.py        ← una clase por farmacia
+
 ├── productos.json      ← configuración de productos y URLs
+
 ├── utils.py            ← helpers: logging, limpieza de precios
+
 └── precios.csv         ← output
