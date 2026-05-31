@@ -78,5 +78,326 @@
     "selma": null,
     "central_oeste": null,
     "farmaonline": "https://www.farmaonline.com/garnier-8131869/p"
+  },
+{
+    "nombre": "Oleo Capilar Elvive Oleo Extraordinario x100ml",
+    "farmacity": "https://www.farmacity.com/oleo-extraordinario-x-100-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/oleo-extraordinario-elvive-100ml-1/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7509552874204-oleo-capilar-elvive-oleo-extraordinario-x100ml.html",
+    "farmaonline": "https://www.farmaonline.com/elvive-oleo-extraordinario--100ml-8017750/p"
+  },
+    {
+    "nombre": "Leche Infantil Nutrilon Profutura 3 Pack 24 x 200 ml",
+    "farmacity": "https://www.farmacity.com/leche-infantil-nutrilon-profutura-3-a-partir-de-1-ano-brick-x-24-un-x-200-ml-c-u/p",
+    "farmaplus": "https://www.farmaplus.com.ar/profutura-3-formula-liquida-30-bricks-de-200ml/p",
+    "selma": "https://selmadigital.com/p/profutura-3-nueva-formula-pack-24-bricks-x200ml/60ed19bd-a3ec-4a99-a2b7-33713141dde2",
+    "central_oeste": "https://www.centraloeste.com.ar/combo7795323775348.html",
+    "farmaonline": "https://www.farmaonline.com/combo-formula-lactea-profutura-3--24-brick-de-200-ml-10000593/p"
+  },
+  {
+    "nombre": "La Roche-Posay Hyalu B5 Serum Suractivado 30 ml",
+    "farmacity": "https://www.farmacity.com/serum-antiarrugas-la-roche-posay-hyalu-b5-suractivated/p",
+    "farmaplus": "https://www.farmaplus.com.ar/la-roche-posay-hyalu-b5-serum/p",
+    "selma": "https://selmadigital.com/p/serum-antiage-rellenador-hyalu-b5-suractivated-x30ml/169d1c17-111e-4aa7-8f42-a766bd4ceb51",
+    "central_oeste": "https://www.centraloeste.com.ar/3337875920582-serum-facial-la-roche-posay-hyalu-b5-x30ml.html",
+    "farmaonline": "https://www.farmaonline.com/la-roche-posay-8141316-1/p"
+  },
+  {
+    "nombre": "Perpiel Emulsión Corporal Humectación Profunda con Fragancia 400 g",
+    "farmacity": "https://www.farmacity.com/emulsion-corporal-perpiel-humectacion-profunda-con-fragancia-x-400-g/p",
+    "farmaplus": "https://www.farmaplus.com.ar/perpiel-emulsion-humectacion-profunda-400gr-barr/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/perpiel-humectacion-profunda-x400gr-con-delicada-fragancia.html",
+    "farmaonline": "https://www.farmaonline.com/perpiel-emulsin-corporal-humectacion-profunda-frangancia-400-ml-8112287/p"
+  },
+  {
+    "nombre": "La Roche-Posay Anthelios UV Air SPF 50 40 ml",
+    "farmacity": "https://www.farmacity.com/protector-solar-la-roche-posay-anthelios-uvair-spf-50-x-40-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/la-roche-posay-anthelios-uvair-ligero-fps50-solar-40ml/p",
+    "selma": "https://selmadigital.com/p/protector-solar-anthelios-uv-air-spf50-x40ml/adf2c363-a2a0-45a5-954e-64a11fb119eb",
+    "central_oeste": "https://www.centraloeste.com.ar/3337875917810-la-roche-antehelios-uvair-fluid-50.html",
+    "farmaonline": "https://www.farmaonline.com/la-roche-posay-8138569/p"
+  },
+  {
+    "nombre": "Megacistin Max Fortalecedor Anti-Caída 30 comprimidos",
+    "farmacity": null,
+    "farmaplus": "https://www.farmaplus.com.ar/megacistin-max-fortalecedor-anti-caida-x-30-comprimidos/p",
+    "selma": "https://selmadigital.com/p/max-fortalecedor-anti-caida-x30-comprimidos/35176768-a868-4eee-b50b-37d962dc6b5b",
+    "central_oeste": "https://www.centraloeste.com.ar/7791984000720-megacistin-suplemento-dietario-x30cmp-max.html",
+    "farmaonline": "https://www.farmaonline.com/megacistin-suplemento-dietario-max-30-comprimidos-8022524/p"
+  },
+  {
+    "nombre": "Perpiel Contorno de Ojos Antiage 15 ml",
+    "farmacity": "https://www.farmacity.com/contorno-de-ojos-perpiel-antiage-x-15-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/contorno-de-ojos-antiage-15-ml/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7792175011365-perpiel-antiage-contorno-de-ojos-env-x-15-ml.html",
+    "farmaonline": null
+  },
+  {
+    "nombre": "Dermaglós Protector Solar Facial Fluido Invisible FPS 50 50 g",
+    "farmacity": "https://www.farmacity.com/protector-solar-facial-dermaglos-fuido-invisible-fps-50-x-50-g/p",
+    "farmaplus": "https://www.farmaplus.com.ar/protector-solar-dermaglos-facial-fps-50-emulsion-fluida-50g/p",
+    "selma": "https://selmadigital.com/p/protector-solar-facial-fs50-fluido-invisible-50gr/65a70bb6-4e2a-4c7d-9f3d-95db4c9839f4",
+    "central_oeste": "https://www.centraloeste.com.ar/7793742004933-protector-solar-facial-dermaglos-fps50-fluido-s-color-x50gr.html",
+    "farmaonline": "https://www.farmaonline.com/dermaglos-8138966/p"
+  },
+  {
+    "nombre": "La Roche-Posay Toleriane Sensitive Hidratante 40 ml",
+    "farmacity": "https://www.farmacity.com/toleriane-sensitive-hidratante-x-40-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/toleriane-sensitive-40ml/p",
+    "selma": "https://selmadigital.com/p/toleriane-sensitive-x40-ml/024e4754-fcdb-43aa-aaf4-762df1640393",
+    "central_oeste": "https://www.centraloeste.com.ar/la-roche-posay-hidratante-facial-x-40ml-toleriane-sensitive.html",
+    "farmaonline": "https://www.farmaonline.com/la-roche-posay-toleriane-sensitive-hidratante-calmante-40-ml-8035148/p"
+  },
+  {
+    "nombre": "Caviahue Agua Termal Volcánica 170 ml",
+    "farmacity": "https://www.farmacity.com/agua-termal-volcanica-caviahue-x-170-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/agua-termal-volcanica-caviahue-de-170ml-barr/p",
+    "selma": "https://selmadigital.com/shop?search=AGUA%20TERMAL%20CAVIAHUE&handler=algolia",
+    "central_oeste": "https://www.centraloeste.com.ar/7798120265869-caviahue-agua-thermal-170ml-volcanica.html",
+    "farmaonline": "https://www.farmaonline.com/caviahue-agua-termal-volcnica-aerosol-170-ml-8041567/p"
+  },
+  {
+    "nombre": "Vichy Mineral 89 Concentrado Fortificante y Reconstituyente 50 ml",
+    "farmacity": "https://www.farmacity.com/mineral-89-concentrado-fortificante-y-reconstituyente-x-50-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/vichy-mineral-89-fortificante-reconstituyente-50ml-barr/p",
+    "selma": "https://selmadigital.com/p/mineral-89-fortificante-reconstituyente-x-50-ml/ccd6c566-b105-4262-a14e-1994c4a6f02e",
+    "central_oeste": "https://www.centraloeste.com.ar/vichy-hidratante-facial-x-50ml-mineral-89.html",
+    "farmaonline": "https://www.farmaonline.com/vichy-mineral-89-serum-de-cido-hyalurnico-fortificante-y-reparador-50-ml-8032886/p"
+  },
+  {
+    "nombre": "Vichy Liftactiv Collagen Specialist 16 50 ml",
+    "farmacity": "https://www.farmacity.com/gel-vichy-liftactiv-collagen-16-x-50-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/vichy-liftactiv-collagen-specialist-50ml/p",
+    "selma": "https://selmadigital.com/p/crema-gel-efecto-relleno-liftactiv-collagen-specialist-16-x50ml/5f20fd31-1880-43e3-a4d2-98f6020631ff",
+    "central_oeste": "https://www.centraloeste.com.ar/3337875945851-colageno-vichy-lifactiv-specialist-16-collagel-x50ml.html",
+    "farmaonline": "https://www.farmaonline.com/vichy-8141542/p"
+  },
+  {
+    "nombre": "CeraVe Crema Hidratante 454 ml",
+    "farmacity": "https://www.farmacity.com/crema-corporal-cerave-hidratante-x-454-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/cerave-crema-hidratante-con-acido-hialuronico-454ml/p",
+    "selma": "https://selmadigital.com/p/crema-hidratante-pote-x454gr/0af93b09-cb0e-433d-986a-d4f58940ff61",
+    "central_oeste": "https://www.centraloeste.com.ar/3337875597388-crema-corporal-cerave-hidratante-x454ml.HTML",
+    "farmaonline": "https://www.farmaonline.com/cerave-crema-hidratante-454-ml-8121258/p"
+  },
+  {
+    "nombre": "CeraVe Loción Hidratante 236 ml",
+    "farmacity": "https://www.farmacity.com/locion-corporal-cerave-hidratante-x-236-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/cerave-locion-hidratante-x-236ml/p",
+    "selma": "https://selmadigital.com/p/locion-hidratante-x-236-ml/d3f4fda6-5e1a-412f-a265-2f746b584b92",
+    "central_oeste": "https://www.centraloeste.com.ar/3337875597210-locion-corporal-cerave-hidratante-x236ml.html",
+    "farmaonline": "https://www.farmaonline.com/cerave-locin-hidratante-236-ml-8121255/p"
+  },
+  {
+    "nombre": "ISDIN Fusion Water Color FPS 50 50 ml",
+    "farmacity": "https://www.farmacity.com/fotoprotector-fluido-isdin-fusion-water-color-fps-50-x-50-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/isdin-protector-solar-foto-fusion-water-color-spf50-50ml/p",
+    "selma": "https://selmadigital.com/p/fotoprotector-spf50-fusion-water-magic-medium-50ml/aa514b1b-1d3b-4b6a-a4cf-e4ced9af7198",
+    "central_oeste": "https://www.centraloeste.com.ar/isdin-protector-solar-x-50ml-fotoprotector-50-fusion-color-water.html",
+    "farmaonline": "https://www.farmaonline.com/isdin-8124236/p?skuId=8037151"
+  },
+  {
+    "nombre": "Bioderma Atoderm Crème Ultra Hidratante 500 ml",
+    "farmacity": null,
+    "farmaplus": "https://www.farmaplus.com.ar/bioderma-atoderm-creme-ultra-hidratante-500ml/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/3701129805343-crema-bioderma-atoderm-corporal-ultra-fp-x500ml.html",
+    "farmaonline": "https://www.farmaonline.com/bioderma-8131551/p"
+  },
+  {
+    "nombre": "Bioderma Sensibio Gel Moussant 200 ml",
+    "farmacity": "https://www.farmacity.com/desmaquillante-bioderma-sensibio-gel-moussant-x-200-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/bioderma-sensibio-gel-moussant-para-piel-sensible-200ml/p",
+    "selma": "https://selmadigital.com/p/sensibio-gel-moussant-desmaquillante-rostro-y-ojos-x-200/e0777a74-4163-40d0-aa03-a91fb3105e6f",
+    "central_oeste": "https://www.centraloeste.com.ar/3401381507565-desmaquillante-bioderma-sensibio-sensibio-gel-moussant-x200ml.html",
+    "farmaonline": "https://www.farmaonline.com/bioderma-sensibio-gel-moussant-gel-micelar-limpiador-piel-sensible-200-ml-8030429/p"
+  },
+  {
+    "nombre": "Eximia Hyalu Sensitive Gel Crema Facial 50 g",
+    "farmacity": null,
+    "farmaplus": "https://www.farmaplus.com.ar/eximia-hyalu-sensitive-gel-crema-facial-50g/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7798178624403-crema-eximia-hyalu-gel-sensitive-repar-x50gr.html",
+    "farmaonline": "https://www.farmaonline.com/eximia-8135906/p"
+  },
+  {
+    "nombre": "Cepage Atophen Sensitive Emulsión 40 ml",
+    "farmacity": "https://www.farmacity.com/atophen-sensitive-emulsion-x-40-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/cepage-atophen-sensitive-emulsion-calmante-y-reparadora-40g/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7798178624328-emulsion-cepage-atophen-sensitive-x40gr.html",
+    "farmaonline": "https://www.farmaonline.com/cepage-8134568/p"
+  },
+  {
+    "nombre": "Eucerin Aquaphor Reparador de Labios SOS 10 ml",
+    "farmacity": "https://www.farmacity.com/reparador-de-labios-eucerin-aquaphor-sos-x-10-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/eucerin-aquaphor-reparador-de-labios-sos-balsamo-x-10-ml-barr/p",
+    "selma": "https://selmadigital.com/p/reparador-de-labios-s-o-s-aquaphor-alivio-en-labios-secos-y-agrietados-x10-ml/e756c1c0-aed3-4cf6-a362-bf74d8f16341",
+    "central_oeste": "https://www.centraloeste.com.ar/4005800268731-reparador-labial-eucerin-aquaphor-sos-x10ml-1.html",
+    "farmaonline": "https://www.farmaonline.com/eucerin-reparador-de-labios-s-o-s-aquaphor-8115899/p"
+  },
+  {
+    "nombre": "Eucerin Sun Pigment Control FPS 50 50 ml",
+    "farmacity": "https://www.farmacity.com/protector-solar-eucerin-sun-pigment-control-fps-50-x-50-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/eucerin-pigment-control-protector-solar-fps50-fluido-50ml/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/protector-solar-eucerin-sun-fps50-pigment-control-x50ml.html",
+    "farmaonline": "https://www.farmaonline.com/eucerin-protector-solar-facial-pigment-control-fps-50-8039879/p"
+  },
+  {
+    "nombre": "Rayito de Sol Protector Solar Facial FPS 50 50 g",
+    "farmacity": "https://www.farmacity.com/protector-solar-rayito-de-sol-facial-fps-50-x-50-g/p",
+    "farmaplus": "https://www.farmaplus.com.ar/protector-solar-facial-fps-50-x-50g/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7796045102672-protector-solar-facial-rayito-de-sol-fps50-x50gr.html",
+    "farmaonline": "https://www.farmaonline.com/rayito-de-sol-8140571/p"
   }
+  {
+    "nombre": "Tortulán Crema Antiarrugas Contorno de Ojos 15 g",
+    "farmacity": "https://www.farmacity.com/crema-antiarrugas-contorno-ojos-x-15-gr/p",
+    "farmaplus": "https://www.farmaplus.com.ar/tortulan-antiarrugas-contorno-de-ojos-x-15gr-barr/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7796045750040-tortulan-crema-facial-15gphysio-contorn.html",
+    "farmaonline": "https://www.farmaonline.com/tortulan-crema-para-contorno-de-ojos-con-cido-hialurnico-15-gr-6310240/p"
+  },
+  {
+    "nombre": "Tortulán Physiologyque Serum Reparación Intensiva 30 ml",
+    "farmacity": "https://www.farmacity.com/serum-tortulan-reparacion-intensiva-x-30-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/tortulan-physiologyque-serum-reparacion-intensiva-x-30ml-barr/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7796045750118-serum-tortulan-physio-rep-intensa-x30ml.html",
+    "farmaonline": "https://www.farmaonline.com/tortulan-serum-reparacin-intensiva-30-ml-8120895/p"
+  },
+  {
+    "nombre": "Neutrogena Deep Clean Intensive Gel de Limpieza Facial Grapefruit 150 g",
+    "farmacity": "https://www.farmacity.com/gel-de-limpiza-facial-neutrogena-deep-clean-intensive-x-150-g/p",
+    "farmaplus": "https://www.farmaplus.com.ar/gel-de-limpeza-neutrogena-deep-clean-grapefruit-150-gr/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7891010972226-jabon-de-tocador-neutrogena-d-clean-pomelo-x150ml.html",
+    "farmaonline": "https://www.farmaonline.com/neutrogena-gel-de-limpieza-deep-clean-intensive-grapefruit-150-gr-8015639/p"
+  },
+  {
+    "nombre": "Neutrogena Hydro Boost Water Gel 50 g",
+    "farmacity": "https://www.farmacity.com/crema-facial-hydro-boost-water-gel-x-50-gr/p",
+    "farmaplus": "https://www.farmaplus.com.ar/hidratante-facial-neutrogena-hydro-boost-water-gel-x-50-gr/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/neutrogena-crema-facial-x-50g-hydro-boost-water-gel.html",
+    "farmaonline": "https://www.farmaonline.com/neutrogena-crema-hidratante-facial-hydro-boost-water-gel-50-gr-8030088/p"
+  },
+  {
+    "nombre": "Bagóvit A Emulsión Nutritiva Humectante 350 g",
+    "farmacity": "https://www.farmacity.com/emulsion-nutritiva-humectante-corporal-x-350-gr/p",
+    "farmaplus": "https://www.farmaplus.com.ar/bagovit-a-emulsion-nutritiva-humectante-350g-barr/p",
+    "selma": "https://selmadigital.com/p/emulsion-nutritiva-humectante-dosificador-x350-gr/d3f15da1-2488-4be7-91de-a5cdeeaae220",
+    "central_oeste": "https://www.centraloeste.com.ar/7790375267285-bagovit-crema-corporal-x-350grs-emulsion-con-dosificador.html",
+    "farmaonline": "https://www.farmaonline.com/bagovit-emulsin-nutritiva-humectante-350-gr-8009533/p"
+  },
+  {
+    "nombre": "Bagóvit Pro Bio Anti-Manchas FPS 40 Crema Facial 50 ml",
+    "farmacity": "https://www.farmacity.com/crema-facial-bagovit-pro-bio-anti-manchas-fps-40-x-50-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/bagovit-facial-pro-bio-anti-manchas-crema-de-dia-x-50g-barr/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7790375269357-crema-facial-bagovit-pro-bio-antimanchas-x50gr.html",
+    "farmaonline": "https://www.farmaonline.com/bagovit-crema-facial-pro-bio-antimanchas-50-ml-8118713/p"
+  },
+  {
+    "nombre": "Avène Cicalfate Crema Reparadora 40 ml",
+    "farmacity": "https://www.farmacity.com/crema-facial-avene-cicalfate-x-40-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/avene-cicalfate--crema-reparadora--x-40-ml-barr/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7799075001380-crema-avene-cicalfate-reparadora-x40ml.html",
+    "farmaonline": "https://www.farmaonline.com/avene-cicalfate-crema-reparadora--40-ml-8115381/p"
+  },
+  {
+    "nombre": "Aveno Emulsión Corporal Pieles Sensibles 400 ml",
+    "farmacity": "https://www.farmacity.com/emulsion-avena-natural-aveno-pieles-sensibles-400-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/aveno-emulsion-corporal-hidratante-suavizante-400ml-barr/p",
+    "selma": "https://selmadigital.com/p/emulsion-x-400-ml/aeba9b33-eb29-4296-b1d5-609018729178",
+    "central_oeste": "https://www.centraloeste.com.ar/7793742004391-aveno-emulsionx400ml.html",
+    "farmaonline": "https://www.farmaonline.com/aveno-emulsin-hidratante-corporal-400ml-8036404/p"
+  },
+  {
+    "nombre": "A-Derma Exomega Control Crema Emoliente 400 ml",
+    "farmacity": "https://www.farmacity.com/crema-emoliente-a-derma-exomega-control-x-400-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/crema-hidratante-a-derma-exomega-control-corporal-400ml/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7798095419724-crema-facial-a-derma-exomega-x400ml.html",
+    "farmaonline": "https://www.farmaonline.com/aderma-exomega-control-crema-400-ml-8038567/p"
+  },
+  {
+    "nombre": "Elvive Dream Liso Serum 100 ml",
+    "farmacity": "https://www.farmacity.com/serum-elvive-dream-liso-x-100-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/serum-elvive-dream-liso-100ml/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7509552979558-serum-capilar-elvive-dream-liso-x100ml.html",
+    "farmaonline": "https://www.farmaonline.com/elvive-8138831/p"
+  },
+  {
+    "nombre": "Maybelline Lash Sensational Sky High Waterproof 7.2 ml",
+    "farmacity": "https://www.farmacity.com/mascara-de-pestanas-maybelline-sensational-sky-high-waterproof-x-7-2-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/mascara-de-pestanas-maybelline-sky-high-very-black-wsh/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/41554590500-mascara-de-pestanas-maybelline-lash-sensational-sky-high-wsh.html",
+    "farmaonline": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-sky-high-very-black-washable-8121647/p"
+  },
+  {
+    "nombre": "L'Oréal Paris Revitalift Retinol Día 50 ml",
+    "farmacity": "https://www.farmacity.com/crema-loreal-paris-revitalift-retinol-dia-x-50-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/crema-dia-revitalift-pro-retinol-day-cream-fps17-50ml/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7509552898255-crema-facial-loreal-revitalift-retinol-day-cream-x50ml.html",
+    "farmaonline": "https://www.farmaonline.com/loreal-paris-8131202/p"
+  },
+  {
+    "nombre": "Dove Sérum Corporal Tono Uniforme Niacinamida 400 ml",
+    "farmacity": "https://www.farmacity.com/serum-corporal-tono-uniforme-niacinamida-x-400-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/serum-coporal-dove-niacinamida-reduce-las-manchas-400ml/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/7506306252875-serum-dove-corporal-niacinamida-x400ml.html",
+    "farmaonline": "https://www.farmaonline.com/dove-8133245/p"
+  },
+  {
+    "nombre": "AMPK Creatina HCL Ultra Concentrada 60 cápsulas",
+    "farmacity": "https://www.farmacity.com/suplemento-deportivo-ampk-creatina-hcl-ultra-concentrada-x-60-caps/p",
+    "farmaplus": "http://farmaplus.com.ar/ampk-creatina-hcl-750mg-capsulas-x60/p",
+    "selma": "https://selmadigital.com/p/ampk-creatina-h-cl-x60-capsulas/c77d282b-0da5-402e-a47a-2eb42c53fb82",
+    "central_oeste": "https://www.centraloeste.com.ar/7798008191693-ampk-creatina-hcl-original-c-ps-x-60.html",
+    "farmaonline": "https://www.farmaonline.com/ampk-8140655/p"
+  },
+  {
+    "nombre": "Ultraflex Gluco Colágeno Hidrolizado 15 sobres",
+    "farmacity": "https://www.farmacity.com/suplemento-dietario-ultraflex-colageno-hidrolizado-x-15-sobres-x-13-5-g-c-u/p",
+    "farmaplus": "https://www.farmaplus.com.ar/ultraflex-gluco-colageno-glucosamina-ac--hialuronico-15-sob--1/p",
+    "selma": "https://selmadigital.com/p/gluco-colageno-hidrolizado-x-15-sobres/678584a9-1ebd-4af9-85e7-3caf6ad32ff3",
+    "central_oeste": "https://www.centraloeste.com.ar/7795371459672-ultraflex-suplemento-dietario-x15sob-gluco.html",
+    "farmaonline": "https://www.farmaonline.com/ultraflex-8126188/p"
+  },
+  {
+    "nombre": "ENA Creatina Monohidrato Micronizada 300 g",
+    "farmacity": "https://www.farmacity.com/suplemento-dietario-creatina-monohidrato-en-polvo-x-300-gr/p",
+    "farmaplus": "https://www.farmaplus.com.ar/-creatina-micronizada-neutro-300g/p",
+    "selma": "https://selmadigital.com/p/creatina-micronizada-sin-sabor-x-300-gr/31170c80-9c4b-4b76-8ce9-1ccfdd2225ae",
+    "central_oeste": "https://www.centraloeste.com.ar/7792981010026-ena-suplemento-deportivo-monohidrato-x-300grs.html",
+    "farmaonline": "https://www.farmaonline.com/ena-creatina-micronizada-sabor-neutro-300-gr-8034782/p"
+  },
+  {
+    "nombre": "Cetaphil Crema Hidratante 453 g",
+    "farmacity": "https://www.farmacity.com/crema-corporal-cetaphil-hidratante-x-453-g/p",
+    "farmaplus": "https://www.farmaplus.com.ar/cetaphil-crema-hidratante-x453-gr-piel-extra-seca-y-sensible/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/3466320012838-crema-corporal-cetaphil-hidra-x453ml.html",
+    "farmaonline": "https://www.farmaonline.com/cetaphil-crema-hidratante-453-gr-8010441/p"
+  },
+  {
+    "nombre": "Cetaphil Limpiador Crema Espuma Hidratante 473 ml",
+    "farmacity": "https://www.farmacity.com/crema-limpiadora-cetaphil-espuma-hidratante-x-473-ml/p",
+    "farmaplus": "https://www.farmaplus.com.ar/cetaphil-limpiador-crema-espuma-473ml/p",
+    "selma": null,
+    "central_oeste": "https://www.centraloeste.com.ar/3499320015615-espuma-de-limpieza-cetaphil-x473ml.html",
+    "farmaonline": "https://www.farmaonline.com/cetaphil-8138331/p"
+  }
+  
 ]
