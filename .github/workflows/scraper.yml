@@ -29,6 +29,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Ejecutar scraper
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
         run: python scraper.py
 
       - name: Commit resultados
