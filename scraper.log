@@ -6661,3 +6661,788 @@ Stacktrace:
 2026-06-03 14:59:48 | INFO     | scraper | Actualizando Google Sheets...
 2026-06-03 14:59:50 | INFO     | scraper.sheets | Sheets actualizado: 50 filas agregadas.
 2026-06-03 14:59:50 | INFO     | scraper | Scraper finalizado exitosamente.
+2026-06-04 12:48:01 | INFO     | scraper | ============================================================
+2026-06-04 12:48:01 | INFO     | scraper | Iniciando scraper
+2026-06-04 12:48:01 | INFO     | scraper | SKUs ya conocidos: 49
+2026-06-04 12:48:01 | INFO     | scraper | Iniciando ChromeDriver...
+2026-06-04 12:48:09 | INFO     | scraper | ── Scrapeando: Nivea Sun Tono Medio
+2026-06-04 12:48:13 | INFO     | scraper.farmacity | OK | precio=18420.0 | lista=28339.0 | https://www.farmacity.com/protector-solar-nivea-sun-tono-medio-fps-50-x-40-ml/p
+2026-06-04 12:48:15 | INFO     | scraper.selma | OK | precio=19820.0 | lista=30515.0 | https://selmadigital.com/p/protector-solar-facial-nivea-sun-ultra-light-daily-fluid-tono-medio-fps50-40-ml/8118c7f9-6892-47e5-ac4e-0fa1af236362
+2026-06-04 12:48:38 | INFO     | scraper.farmaonline | OK | precio=17046.33 | lista=26225.13 | https://www.farmaonline.com/nivea-8138014/p
+2026-06-04 12:48:39 | INFO     | scraper.farmaplus | OK | precio=18420.0 | lista=28338.0 | https://www.farmaplus.com.ar/protector-solar-facial-nivea-sun-ultra-light-daily-fluid-tono-medio-fps-50--para-todo-tipo-de-piel-x-40-ml/p
+2026-06-04 12:48:41 | INFO     | scraper.central_oeste | OK | precio=19399.8 | lista=32333.0 | https://www.centraloeste.com.ar/4006000172521-nivea-sun-ultra-light-daily-fluid-tono-medio-fps-50-facial.html
+2026-06-04 12:48:41 | DEBUG    | scraper | SKU reutilizado del CSV: 4006000172521.0
+2026-06-04 12:48:41 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Nivea Sun Tono Medio', 'sku': '4006000172521.0', 'precio_farmacity': 18420.0, 'lista_farmacity': 28339.0, 'precio_farmaplus': 18420.0, 'lista_farmaplus': 28338.0, 'precio_selma': 19820.0, 'lista_selma': 30515.0, 'precio_central_oeste': 19399.8, 'lista_central_oeste': 32333.0, 'precio_farmaonline': 17046.33, 'lista_farmaonline': 26225.13}
+2026-06-04 12:48:41 | INFO     | scraper | ── Scrapeando: Vichy Capital Soleil
+2026-06-04 12:48:44 | INFO     | scraper.farmacity | OK | precio=58696.0 | lista=83852.0 | https://www.farmacity.com/aceite-solar-invisible-vichy-capital-soleil-cell-protect-spf-50-x-200-ml/p
+2026-06-04 12:48:46 | INFO     | scraper.selma | OK | precio=60973.0 | lista=87118.0 | https://selmadigital.com/p/capital-solei-fps-50-cell-protect-spray-x-200-ml/4096eb08-cf6c-47e0-a812-0a59ed6a4104
+2026-06-04 12:49:08 | INFO     | scraper.farmaonline | OK | precio=58696.4 | lista=83852.0 | https://www.farmaonline.com/vichy-8138570/p
+2026-06-04 12:49:08 | DEBUG    | scraper.central_oeste | URL no configurada para este producto.
+2026-06-04 12:49:09 | INFO     | scraper.farmaplus | OK | precio=58696.0 | lista=83852.0 | https://www.farmaplus.com.ar/vichy-capital-soleil-oil-invisible-cell-protect-spf50-200ml/p
+2026-06-04 12:49:09 | DEBUG    | scraper | SKU reutilizado del CSV: 3337875892308.0
+2026-06-04 12:49:09 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Vichy Capital Soleil', 'sku': '3337875892308.0', 'precio_farmacity': 58696.0, 'lista_farmacity': 83852.0, 'precio_farmaplus': 58696.0, 'lista_farmaplus': 83852.0, 'precio_selma': 60973.0, 'lista_selma': 87118.0, 'precio_central_oeste': None, 'lista_central_oeste': None, 'precio_farmaonline': 58696.4, 'lista_farmaonline': 83852.0}
+2026-06-04 12:49:09 | INFO     | scraper | ── Scrapeando: Caviahue Contorno de Ojos
+2026-06-04 12:49:14 | INFO     | scraper.farmacity | OK | precio=41300.0 | lista=59000.0 | https://www.farmacity.com/contorno-de-ojos-caviahue-vitamina-k3-x-15-g/p
+2026-06-04 12:49:16 | INFO     | scraper.selma | OK | precio=41299.0 | lista=59000.0 | https://selmadigital.com/p/contorno-de-ojos-vitamina-k3-crema-x-15-gramos/64ec1ceb-cf50-4250-9f39-a217abb608a1
+2026-06-04 12:49:21 | INFO     | scraper.farmaonline | OK | precio=41300.0 | lista=59000.0 | https://www.farmaonline.com/caviahue-8126859/p
+2026-06-04 12:49:21 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/caviahue-contorno-de-ojos-con-vitamina-k3-15-gr-barr/p
+2026-06-04 12:49:21 | INFO     | scraper.central_oeste | OK | precio=41300.0 | lista=59000.0 | https://www.centraloeste.com.ar/7798120266446-contorno-de-ojos-caviahue-vitamina-k3.html
+2026-06-04 12:49:21 | DEBUG    | scraper | SKU reutilizado del CSV: 7798120266446.0
+2026-06-04 12:49:21 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Caviahue Contorno de Ojos', 'sku': '7798120266446.0', 'precio_farmacity': 41300.0, 'lista_farmacity': 59000.0, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': 41299.0, 'lista_selma': 59000.0, 'precio_central_oeste': 41300.0, 'lista_central_oeste': 59000.0, 'precio_farmaonline': 41300.0, 'lista_farmaonline': 59000.0}
+2026-06-04 12:49:21 | INFO     | scraper | ── Scrapeando: Maybelline Rubor Líquido Face Sunkisser
+2026-06-04 12:49:25 | INFO     | scraper.farmacity | OK | precio=36990.0 | lista=None | https://www.farmacity.com/rubor-liquido-maybelline-sunkisser-mate-x-4-7-ml/p
+2026-06-04 12:49:25 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:49:29 | INFO     | scraper.farmaonline | OK | precio=18495.0 | lista=36990.0 | https://www.farmaonline.com/maybelline-8138323/p?skuId=8138323
+2026-06-04 12:49:30 | INFO     | scraper.central_oeste | OK | precio=25893.0 | lista=36990.0 | https://www.centraloeste.com.ar/3600531694180-rubor-maybelline-liq-sunkisser-30-mirage.html
+2026-06-04 12:49:30 | INFO     | scraper.farmaplus | OK | precio=25893.0 | lista=36990.0 | https://www.farmaplus.com.ar/maybelline-rubor-liquido-sunkisser-matte-blush/p
+2026-06-04 12:49:30 | DEBUG    | scraper | SKU reutilizado del CSV: 3600531694180.0
+2026-06-04 12:49:30 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Maybelline Rubor Líquido Face Sunkisser', 'sku': '3600531694180.0', 'precio_farmacity': 36990.0, 'lista_farmacity': None, 'precio_farmaplus': 25893.0, 'lista_farmaplus': 36990.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 25893.0, 'lista_central_oeste': 36990.0, 'precio_farmaonline': 18495.0, 'lista_farmaonline': 36990.0}
+2026-06-04 12:49:30 | INFO     | scraper | ── Scrapeando: Isdin Fusion Water Magic
+2026-06-04 12:49:33 | INFO     | scraper.farmacity | OK | precio=47740.0 | lista=73446.0 | https://www.farmacity.com/protector-solar-facial-isdin-fotoprotector-fusion-water-magic-x-50-ml/p
+2026-06-04 12:49:35 | INFO     | scraper.selma | OK | precio=47724.0 | lista=73445.0 | https://selmadigital.com/p/fotoprotector-spf50-fusion-water-magic-50ml/10c1444c-bf32-431f-b1f9-517d5a300bcb
+2026-06-04 12:49:41 | INFO     | scraper.farmaonline | OK | precio=47739.33 | lista=73445.12 | https://www.farmaonline.com/isdin-8129023/p
+2026-06-04 12:49:41 | INFO     | scraper.central_oeste | OK | precio=47710.0 | lista=73400.0 | https://www.centraloeste.com.ar/8429420248977-protector-solar-isdin-foto-fusion-water-magic-fps50-x50ml.html
+2026-06-04 12:49:41 | INFO     | scraper.farmaplus | OK | precio=47739.0 | lista=73445.0 | https://www.farmaplus.com.ar/isdin-fusion-water-magic-fotoprotector-solar-fps50-50ml/p
+2026-06-04 12:49:41 | DEBUG    | scraper | SKU reutilizado del CSV: 8429420248977.0
+2026-06-04 12:49:41 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Isdin Fusion Water Magic', 'sku': '8429420248977.0', 'precio_farmacity': 47740.0, 'lista_farmacity': 73446.0, 'precio_farmaplus': 47739.0, 'lista_farmaplus': 73445.0, 'precio_selma': 47724.0, 'lista_selma': 73445.0, 'precio_central_oeste': 47710.0, 'lista_central_oeste': 73400.0, 'precio_farmaonline': 47739.33, 'lista_farmaonline': 73445.12}
+2026-06-04 12:49:41 | INFO     | scraper | ── Scrapeando: 102 Magnesio Citrato Vitaminas Y Minerales Gummies 90 Unidades
+2026-06-04 12:49:46 | INFO     | scraper.farmacity | OK | precio=16931.0 | lista=21164.0 | https://www.farmacity.com/magnesio-102-gummies-x-90/p
+2026-06-04 12:49:47 | INFO     | scraper.selma | OK | precio=17780.0 | lista=21166.79 | https://selmadigital.com/p/102-magnesio-gummies-x90-gomitas/64339877-0c71-43b8-ac2a-81ac7594cbb4
+2026-06-04 12:49:52 | INFO     | scraper.farmaonline | OK | precio=21166.79 | lista=None | https://www.farmaonline.com/102-a%C3%B1os-8134265/p
+2026-06-04 12:49:52 | INFO     | scraper.central_oeste | OK | precio=14815.5 | lista=21165.0 | https://www.centraloeste.com.ar/7791984001529-102-magnesio-gummies-gomitas-x-90.html
+2026-06-04 12:49:52 | INFO     | scraper.farmaplus | OK | precio=15874.0 | lista=21166.0 | https://www.farmaplus.com.ar/102-magnesio-citrato-vitaminas-y-minerales-gummies-90-uds/p
+2026-06-04 12:49:52 | DEBUG    | scraper | SKU reutilizado del CSV: 7791984001529.0
+2026-06-04 12:49:52 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': '102 Magnesio Citrato Vitaminas Y Minerales Gummies 90 Unidades', 'sku': '7791984001529.0', 'precio_farmacity': 16931.0, 'lista_farmacity': 21164.0, 'precio_farmaplus': 15874.0, 'lista_farmaplus': 21166.0, 'precio_selma': 17780.0, 'lista_selma': 21166.79, 'precio_central_oeste': 14815.5, 'lista_central_oeste': 21165.0, 'precio_farmaonline': 21166.79, 'lista_farmaonline': None}
+2026-06-04 12:49:52 | INFO     | scraper | ── Scrapeando: Serum Ojos Anti Ojeras Glycolic Bright L´Oreal Paris
+2026-06-04 12:49:56 | INFO     | scraper.farmacity | OK | precio=42990.0 | lista=None | https://www.farmacity.com/serum-ojos-loreal-glycolic-bright-x-20-ml/p
+2026-06-04 12:49:56 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:50:00 | INFO     | scraper.farmaonline | OK | precio=42990.0 | lista=None | https://www.farmaonline.com/loreal-paris-8137185/p
+2026-06-04 12:50:01 | INFO     | scraper.central_oeste | OK | precio=28200.0 | lista=47000.0 | https://www.centraloeste.com.ar/7509552962512-contorno-de-ojos-glycolic-x20ml.html
+2026-06-04 12:50:01 | INFO     | scraper.farmaplus | OK | precio=42990.0 | lista=None | https://www.farmaplus.com.ar/serum-ojos-anti-ojeras-glycolic-bright-l-oreal-paris-20-ml/p
+2026-06-04 12:50:01 | DEBUG    | scraper | SKU reutilizado del CSV: 7509552962512.0
+2026-06-04 12:50:01 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Serum Ojos Anti Ojeras Glycolic Bright L´Oreal Paris', 'sku': '7509552962512.0', 'precio_farmacity': 42990.0, 'lista_farmacity': None, 'precio_farmaplus': 42990.0, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 28200.0, 'lista_central_oeste': 47000.0, 'precio_farmaonline': 42990.0, 'lista_farmaonline': None}
+2026-06-04 12:50:01 | INFO     | scraper | ── Scrapeando: Brillo Labial Voluminizador Maybelline Lifter Plump
+2026-06-04 12:50:04 | INFO     | scraper.farmacity | OK | precio=23093.0 | lista=32990.0 | https://www.farmacity.com/brillo-labial-maybelline-lifter-plump-x-5-4-ml/p
+2026-06-04 12:50:04 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:50:08 | INFO     | scraper.farmaonline | OK | precio=23093.0 | lista=32990.0 | https://www.farmaonline.com/maybelline-8137172/p?skuId=8137172
+2026-06-04 12:50:11 | INFO     | scraper.central_oeste | OK | precio=23659.99 | lista=33799.99 | https://www.centraloeste.com.ar/41554080704-mby-brillo-labial-plump-blush-blaze.html
+2026-06-04 12:50:11 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/brillo-labial-voluminizador-maybelline-lifter-plump/p
+2026-06-04 12:50:11 | DEBUG    | scraper | SKU reutilizado del CSV: 41554080704.0
+2026-06-04 12:50:11 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Brillo Labial Voluminizador Maybelline Lifter Plump', 'sku': '41554080704.0', 'precio_farmacity': 23093.0, 'lista_farmacity': 32990.0, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 23659.99, 'lista_central_oeste': 33799.99, 'precio_farmaonline': 23093.0, 'lista_farmaonline': 32990.0}
+2026-06-04 12:50:11 | INFO     | scraper | ── Scrapeando: L'oréal Paris Revitalift Sérum Ácido Hialurónico 30ml
+2026-06-04 12:50:14 | INFO     | scraper.farmacity | OK | precio=28194.0 | lista=46990.0 | https://www.farmacity.com/serum-rellenador-loreal-paris-revitalift-acido-hialuronico-x-30-ml/p
+2026-06-04 12:50:14 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:50:17 | INFO     | scraper.farmaonline | OK | precio=28194.0 | lista=46990.0 | https://www.farmaonline.com/loreal-paris-serum-cido-hialurnico-revitalift-30-ml-8043361/p
+2026-06-04 12:50:18 | INFO     | scraper.central_oeste | OK | precio=30500.4 | lista=50834.0 | https://www.centraloeste.com.ar/7509552843620-serum-facial-loreal-revitalift-hialuronica-x30ml.html
+2026-06-04 12:50:18 | INFO     | scraper.farmaplus | OK | precio=46990.0 | lista=None | https://www.farmaplus.com.ar/loreal-paris-revitalift-serum-acido-hialuronico-30ml/p
+2026-06-04 12:50:18 | DEBUG    | scraper | SKU reutilizado del CSV: 7509552843620.0
+2026-06-04 12:50:18 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': "L'oréal Paris Revitalift Sérum Ácido Hialurónico 30ml", 'sku': '7509552843620.0', 'precio_farmacity': 28194.0, 'lista_farmacity': 46990.0, 'precio_farmaplus': 46990.0, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 30500.4, 'lista_central_oeste': 50834.0, 'precio_farmaonline': 28194.0, 'lista_farmaonline': 46990.0}
+2026-06-04 12:50:18 | INFO     | scraper | ── Scrapeando: Agua Micelar Skin Active Con Ácido Salicílico 400ml
+2026-06-04 12:50:23 | INFO     | scraper.farmacity | OK | precio=15393.0 | lista=21990.0 | https://www.farmacity.com/agua-micelar-skin-garnier-con-acido-salicilico-x-400-ml/p
+2026-06-04 12:50:23 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:50:25 | INFO     | scraper.farmaonline | OK | precio=15393.0 | lista=21990.0 | https://www.farmaonline.com/garnier-8131869/p
+2026-06-04 12:50:25 | DEBUG    | scraper.central_oeste | URL no configurada para este producto.
+2026-06-04 12:50:26 | INFO     | scraper.farmaplus | OK | precio=15393.0 | lista=21990.0 | https://www.farmaplus.com.ar/agua-micelar-garnier-skin-active-con-acido-salicilico-400ml/p
+2026-06-04 12:50:26 | DEBUG    | scraper | SKU reutilizado del CSV: 7509552875416.0
+2026-06-04 12:50:26 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Agua Micelar Skin Active Con Ácido Salicílico 400ml', 'sku': '7509552875416.0', 'precio_farmacity': 15393.0, 'lista_farmacity': 21990.0, 'precio_farmaplus': 15393.0, 'lista_farmaplus': 21990.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': None, 'lista_central_oeste': None, 'precio_farmaonline': 15393.0, 'lista_farmaonline': 21990.0}
+2026-06-04 12:50:26 | INFO     | scraper | ── Scrapeando: Oleo Capilar Elvive Oleo Extraordinario x100ml
+2026-06-04 12:50:29 | INFO     | scraper.farmacity | OK | precio=17990.0 | lista=None | https://www.farmacity.com/oleo-extraordinario-x-100-ml/p
+2026-06-04 12:50:29 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:50:32 | INFO     | scraper.farmaonline | OK | precio=9995.0 | lista=19990.0 | https://www.farmaonline.com/elvive-oleo-extraordinario--100ml-8017750/p
+2026-06-04 12:50:34 | INFO     | scraper.farmaplus | OK | precio=19990.0 | lista=None | https://www.farmaplus.com.ar/oleo-extraordinario-elvive-100ml-1/p
+2026-06-04 12:50:35 | INFO     | scraper.central_oeste | OK | precio=13000.2 | lista=21667.0 | https://www.centraloeste.com.ar/7509552874204-oleo-capilar-elvive-oleo-extraordinario-x100ml.html
+2026-06-04 12:50:35 | DEBUG    | scraper | SKU reutilizado del CSV: 7509552874204.0
+2026-06-04 12:50:35 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Oleo Capilar Elvive Oleo Extraordinario x100ml', 'sku': '7509552874204.0', 'precio_farmacity': 17990.0, 'lista_farmacity': None, 'precio_farmaplus': 19990.0, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 13000.2, 'lista_central_oeste': 21667.0, 'precio_farmaonline': 9995.0, 'lista_farmaonline': 19990.0}
+2026-06-04 12:50:35 | INFO     | scraper | ── Scrapeando: Leche Infantil Nutrilon Profutura 3 Pack 24 x 200 ml
+2026-06-04 12:50:39 | INFO     | scraper.farmacity | OK | precio=67948.0 | lista=None | https://www.farmacity.com/leche-infantil-nutrilon-profutura-3-a-partir-de-1-ano-brick-x-24-un-x-200-ml-c-u/p
+2026-06-04 12:50:40 | INFO     | scraper.selma | OK | precio=34896.0 | lista=69792.0 | https://selmadigital.com/p/profutura-3-nueva-formula-pack-24-bricks-x200ml/60ed19bd-a3ec-4a99-a2b7-33713141dde2
+2026-06-04 12:50:53 | INFO     | scraper.farmaonline | OK | precio=34896.0 | lista=69792.0 | https://www.farmaonline.com/combo-formula-lactea-profutura-3--24-brick-de-200-ml-10000593/p
+2026-06-04 12:50:53 | INFO     | scraper.central_oeste | OK | precio=67944.0 | lista=None | https://www.centraloeste.com.ar/combo7795323775348.html
+2026-06-04 12:50:55 | INFO     | scraper.farmaplus | OK | precio=34896.0 | lista=69792.0 | https://www.farmaplus.com.ar/profutura-3-formula-liquida-30-bricks-de-200ml/p
+2026-06-04 12:50:55 | DEBUG    | scraper | SKU reutilizado del CSV: 7795323775348.0
+2026-06-04 12:50:55 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Leche Infantil Nutrilon Profutura 3 Pack 24 x 200 ml', 'sku': '7795323775348.0', 'precio_farmacity': 67948.0, 'lista_farmacity': None, 'precio_farmaplus': 34896.0, 'lista_farmaplus': 69792.0, 'precio_selma': 34896.0, 'lista_selma': 69792.0, 'precio_central_oeste': 67944.0, 'lista_central_oeste': None, 'precio_farmaonline': 34896.0, 'lista_farmaonline': 69792.0}
+2026-06-04 12:50:55 | INFO     | scraper | ── Scrapeando: La Roche-Posay Hyalu B5 Serum Suractivado 30 ml
+2026-06-04 12:50:59 | INFO     | scraper.farmacity | OK | precio=80941.0 | lista=134902.0 | https://www.farmacity.com/serum-antiarrugas-la-roche-posay-hyalu-b5-suractivated/p
+2026-06-04 12:51:00 | INFO     | scraper.selma | OK | precio=94421.0 | lista=134902.0 | https://selmadigital.com/p/serum-antiage-rellenador-hyalu-b5-suractivated-x30ml/169d1c17-111e-4aa7-8f42-a766bd4ceb51
+2026-06-04 12:51:46 | ERROR    | scraper.farmaonline | ERROR en https://www.farmaonline.com/la-roche-posay-8141316-1/p: Message: 
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c5cc0d <unknown>
+#3 0x55ae87c5ce51 <unknown>
+#4 0x55ae87ca7b24 <unknown>
+#5 0x55ae87ca4cbf <unknown>
+#6 0x55ae87c50222 <unknown>
+#7 0x55ae87c51011 <unknown>
+#8 0x55ae881d0a0b <unknown>
+#9 0x55ae881d392d <unknown>
+#10 0x55ae881bd948 <unknown>
+#11 0x55ae881d44c0 <unknown>
+#12 0x55ae881a4560 <unknown>
+#13 0x55ae881f7dd8 <unknown>
+#14 0x55ae881f7f75 <unknown>
+#15 0x55ae88209bce <unknown>
+#16 0x7ff581e9caa4 <unknown>
+#17 0x7ff581f29c6c <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 53, in obtener_precios
+    precio, lista = self._scrape(url)
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 132, in _scrape
+    return _extraer_precios_vtex_principal(self.driver, self.wait)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 76, in _extraer_precios_vtex_principal
+    selling_elem = wait.until(
+                   ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c5cc0d <unknown>
+#3 0x55ae87c5ce51 <unknown>
+#4 0x55ae87ca7b24 <unknown>
+#5 0x55ae87ca4cbf <unknown>
+#6 0x55ae87c50222 <unknown>
+#7 0x55ae87c51011 <unknown>
+#8 0x55ae881d0a0b <unknown>
+#9 0x55ae881d392d <unknown>
+#10 0x55ae881bd948 <unknown>
+#11 0x55ae881d44c0 <unknown>
+#12 0x55ae881a4560 <unknown>
+#13 0x55ae881f7dd8 <unknown>
+#14 0x55ae881f7f75 <unknown>
+#15 0x55ae88209bce <unknown>
+#16 0x7ff581e9caa4 <unknown>
+#17 0x7ff581f29c6c <unknown>
+
+2026-06-04 12:51:47 | INFO     | scraper.central_oeste | OK | precio=94431.4 | lista=134902.0 | https://www.centraloeste.com.ar/3337875920582-serum-facial-la-roche-posay-hyalu-b5-x30ml.html
+2026-06-04 12:51:47 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/la-roche-posay-hyalu-b5-serum/p
+2026-06-04 12:51:47 | DEBUG    | scraper | SKU reutilizado del CSV: 3337875920582.0
+2026-06-04 12:51:47 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'La Roche-Posay Hyalu B5 Serum Suractivado 30 ml', 'sku': '3337875920582.0', 'precio_farmacity': 80941.0, 'lista_farmacity': 134902.0, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': 94421.0, 'lista_selma': 134902.0, 'precio_central_oeste': 94431.4, 'lista_central_oeste': 134902.0, 'precio_farmaonline': None, 'lista_farmaonline': None}
+2026-06-04 12:51:47 | INFO     | scraper | ── Scrapeando: Perpiel Emulsión Corporal Humectación Profunda con Fragancia 400 g
+2026-06-04 12:51:51 | INFO     | scraper.farmacity | OK | precio=19996.0 | lista=None | https://www.farmacity.com/emulsion-corporal-perpiel-humectacion-profunda-con-fragancia-x-400-g/p
+2026-06-04 12:51:51 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:52:04 | INFO     | scraper.farmaonline | OK | precio=15116.68 | lista=21595.26 | https://www.farmaonline.com/perpiel-emulsin-corporal-humectacion-profunda-frangancia-400-ml-8112287/p
+2026-06-04 12:52:04 | INFO     | scraper.central_oeste | OK | precio=11997.37 | lista=19995.61 | https://www.centraloeste.com.ar/perpiel-humectacion-profunda-x400gr-con-delicada-fragancia.html
+2026-06-04 12:52:06 | INFO     | scraper.farmaplus | OK | precio=13997.0 | lista=19996.0 | https://www.farmaplus.com.ar/perpiel-emulsion-humectacion-profunda-400gr-barr/p
+2026-06-04 12:52:06 | DEBUG    | scraper | SKU reutilizado del CSV: 7792175010023.0
+2026-06-04 12:52:06 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Perpiel Emulsión Corporal Humectación Profunda con Fragancia 400 g', 'sku': '7792175010023.0', 'precio_farmacity': 19996.0, 'lista_farmacity': None, 'precio_farmaplus': 13997.0, 'lista_farmaplus': 19996.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 11997.37, 'lista_central_oeste': 19995.61, 'precio_farmaonline': 15116.68, 'lista_farmaonline': 21595.26}
+2026-06-04 12:52:06 | INFO     | scraper | ── Scrapeando: La Roche-Posay Anthelios UV Air SPF 50 40 ml
+2026-06-04 12:52:10 | INFO     | scraper.farmacity | OK | precio=37500.0 | lista=62500.0 | https://www.farmacity.com/protector-solar-la-roche-posay-anthelios-uvair-spf-50-x-40-ml/p
+2026-06-04 12:52:12 | INFO     | scraper.selma | OK | precio=37490.0 | lista=62500.0 | https://selmadigital.com/p/protector-solar-anthelios-uv-air-spf50-x40ml/adf2c363-a2a0-45a5-954e-64a11fb119eb
+2026-06-04 12:52:15 | INFO     | scraper.farmaonline | OK | precio=37500.0 | lista=62500.0 | https://www.farmaonline.com/la-roche-posay-8138569/p
+2026-06-04 12:52:15 | INFO     | scraper.central_oeste | OK | precio=37500.0 | lista=62500.0 | https://www.centraloeste.com.ar/3337875917810-la-roche-antehelios-uvair-fluid-50.html
+2026-06-04 12:52:16 | INFO     | scraper.farmaplus | OK | precio=37500.0 | lista=62500.0 | https://www.farmaplus.com.ar/la-roche-posay-anthelios-uvair-ligero-fps50-solar-40ml/p
+2026-06-04 12:52:16 | DEBUG    | scraper | SKU reutilizado del CSV: 3337875917810.0
+2026-06-04 12:52:16 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'La Roche-Posay Anthelios UV Air SPF 50 40 ml', 'sku': '3337875917810.0', 'precio_farmacity': 37500.0, 'lista_farmacity': 62500.0, 'precio_farmaplus': 37500.0, 'lista_farmaplus': 62500.0, 'precio_selma': 37490.0, 'lista_selma': 62500.0, 'precio_central_oeste': 37500.0, 'lista_central_oeste': 62500.0, 'precio_farmaonline': 37500.0, 'lista_farmaonline': 62500.0}
+2026-06-04 12:52:16 | INFO     | scraper | ── Scrapeando: Megacistin Max Fortalecedor Anti-Caída 30 comprimidos
+2026-06-04 12:52:16 | DEBUG    | scraper.farmacity | URL no configurada para este producto.
+2026-06-04 12:52:17 | INFO     | scraper.selma | OK | precio=25350.0 | lista=31687.75 | https://selmadigital.com/p/max-fortalecedor-anti-caida-x30-comprimidos/35176768-a868-4eee-b50b-37d962dc6b5b
+2026-06-04 12:52:21 | INFO     | scraper.farmaonline | OK | precio=31687.75 | lista=None | https://www.farmaonline.com/megacistin-suplemento-dietario-max-30-comprimidos-8022524/p
+2026-06-04 12:52:22 | INFO     | scraper.central_oeste | OK | precio=22181.43 | lista=31687.75 | https://www.centraloeste.com.ar/7791984000720-megacistin-suplemento-dietario-x30cmp-max.html
+2026-06-04 12:52:22 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/megacistin-max-fortalecedor-anti-caida-x-30-comprimidos/p
+2026-06-04 12:52:22 | DEBUG    | scraper | SKU reutilizado del CSV: 7791984000720.0
+2026-06-04 12:52:22 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Megacistin Max Fortalecedor Anti-Caída 30 comprimidos', 'sku': '7791984000720.0', 'precio_farmacity': None, 'lista_farmacity': None, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': 25350.0, 'lista_selma': 31687.75, 'precio_central_oeste': 22181.43, 'lista_central_oeste': 31687.75, 'precio_farmaonline': 31687.75, 'lista_farmaonline': None}
+2026-06-04 12:52:22 | INFO     | scraper | ── Scrapeando: Perpiel Contorno de Ojos Antiage 15 ml
+2026-06-04 12:52:27 | INFO     | scraper.farmacity | OK | precio=30682.0 | lista=None | https://www.farmacity.com/contorno-de-ojos-perpiel-antiage-x-15-ml/p
+2026-06-04 12:52:27 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:52:27 | DEBUG    | scraper.farmaonline | URL no configurada para este producto.
+2026-06-04 12:52:27 | INFO     | scraper.central_oeste | OK | precio=30681.12 | lista=None | https://www.centraloeste.com.ar/7792175011365-perpiel-antiage-contorno-de-ojos-env-x-15-ml.html
+2026-06-04 12:52:28 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/contorno-de-ojos-antiage-15-ml/p
+2026-06-04 12:52:28 | DEBUG    | scraper | SKU reutilizado del CSV: 7792175011365.0
+2026-06-04 12:52:28 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Perpiel Contorno de Ojos Antiage 15 ml', 'sku': '7792175011365.0', 'precio_farmacity': 30682.0, 'lista_farmacity': None, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 30681.12, 'lista_central_oeste': None, 'precio_farmaonline': None, 'lista_farmaonline': None}
+2026-06-04 12:52:28 | INFO     | scraper | ── Scrapeando: Dermaglós Protector Solar Facial Fluido Invisible FPS 50 50 g
+2026-06-04 12:52:31 | INFO     | scraper.farmacity | OK | precio=19659.0 | lista=30244.0 | https://www.farmacity.com/protector-solar-facial-dermaglos-fuido-invisible-fps-50-x-50-g/p
+2026-06-04 12:52:32 | INFO     | scraper.selma | OK | precio=22553.0 | lista=34719.74 | https://selmadigital.com/p/protector-solar-facial-fs50-fluido-invisible-50gr/65a70bb6-4e2a-4c7d-9f3d-95db4c9839f4
+2026-06-04 12:52:36 | INFO     | scraper.farmaonline | OK | precio=22567.82 | lista=34719.73 | https://www.farmaonline.com/dermaglos-8138966/p
+2026-06-04 12:52:37 | INFO     | scraper.central_oeste | OK | precio=19200.0 | lista=32000.0 | https://www.centraloeste.com.ar/7793742004933-protector-solar-facial-dermaglos-fps50-fluido-s-color-x50gr.html
+2026-06-04 12:52:38 | INFO     | scraper.farmaplus | OK | precio=15122.0 | lista=30244.0 | https://www.farmaplus.com.ar/protector-solar-dermaglos-facial-fps-50-emulsion-fluida-50g/p
+2026-06-04 12:52:38 | DEBUG    | scraper | SKU reutilizado del CSV: 7793742004933.0
+2026-06-04 12:52:38 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Dermaglós Protector Solar Facial Fluido Invisible FPS 50 50 g', 'sku': '7793742004933.0', 'precio_farmacity': 19659.0, 'lista_farmacity': 30244.0, 'precio_farmaplus': 15122.0, 'lista_farmaplus': 30244.0, 'precio_selma': 22553.0, 'lista_selma': 34719.74, 'precio_central_oeste': 19200.0, 'lista_central_oeste': 32000.0, 'precio_farmaonline': 22567.82, 'lista_farmaonline': 34719.73}
+2026-06-04 12:52:38 | INFO     | scraper | ── Scrapeando: La Roche-Posay Toleriane Sensitive Hidratante 40 ml
+2026-06-04 12:52:42 | INFO     | scraper.farmacity | OK | precio=54735.0 | lista=72980.0 | https://www.farmacity.com/toleriane-sensitive-hidratante-x-40-ml/p
+2026-06-04 12:52:43 | INFO     | scraper.selma | OK | precio=54724.0 | lista=72979.0 | https://selmadigital.com/p/toleriane-sensitive-x40-ml/024e4754-fcdb-43aa-aaf4-762df1640393
+2026-06-04 12:53:01 | ERROR    | scraper.farmaonline | ERROR en https://www.farmaonline.com/la-roche-posay-toleriane-sensitive-hidratante-calmante-40-ml-8035148/p: Message: 
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c5cc0d <unknown>
+#3 0x55ae87c5ce51 <unknown>
+#4 0x55ae87ca7b24 <unknown>
+#5 0x55ae87ca4cbf <unknown>
+#6 0x55ae87c50222 <unknown>
+#7 0x55ae87c51011 <unknown>
+#8 0x55ae881d0a0b <unknown>
+#9 0x55ae881d392d <unknown>
+#10 0x55ae881bd948 <unknown>
+#11 0x55ae881d44c0 <unknown>
+#12 0x55ae881a4560 <unknown>
+#13 0x55ae881f7dd8 <unknown>
+#14 0x55ae881f7f75 <unknown>
+#15 0x55ae88209bce <unknown>
+#16 0x7ff581e9caa4 <unknown>
+#17 0x7ff581f29c6c <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 53, in obtener_precios
+    precio, lista = self._scrape(url)
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 132, in _scrape
+    return _extraer_precios_vtex_principal(self.driver, self.wait)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 76, in _extraer_precios_vtex_principal
+    selling_elem = wait.until(
+                   ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c5cc0d <unknown>
+#3 0x55ae87c5ce51 <unknown>
+#4 0x55ae87ca7b24 <unknown>
+#5 0x55ae87ca4cbf <unknown>
+#6 0x55ae87c50222 <unknown>
+#7 0x55ae87c51011 <unknown>
+#8 0x55ae881d0a0b <unknown>
+#9 0x55ae881d392d <unknown>
+#10 0x55ae881bd948 <unknown>
+#11 0x55ae881d44c0 <unknown>
+#12 0x55ae881a4560 <unknown>
+#13 0x55ae881f7dd8 <unknown>
+#14 0x55ae881f7f75 <unknown>
+#15 0x55ae88209bce <unknown>
+#16 0x7ff581e9caa4 <unknown>
+#17 0x7ff581f29c6c <unknown>
+
+2026-06-04 12:53:02 | INFO     | scraper.farmaplus | OK | precio=54734.0 | lista=72979.0 | https://www.farmaplus.com.ar/toleriane-sensitive-40ml/p
+2026-06-04 12:53:03 | INFO     | scraper.central_oeste | OK | precio=58383.2 | lista=72979.0 | https://www.centraloeste.com.ar/la-roche-posay-hidratante-facial-x-40ml-toleriane-sensitive.html
+2026-06-04 12:53:03 | DEBUG    | scraper | SKU reutilizado del CSV: 3337875578486.0
+2026-06-04 12:53:03 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'La Roche-Posay Toleriane Sensitive Hidratante 40 ml', 'sku': '3337875578486.0', 'precio_farmacity': 54735.0, 'lista_farmacity': 72980.0, 'precio_farmaplus': 54734.0, 'lista_farmaplus': 72979.0, 'precio_selma': 54724.0, 'lista_selma': 72979.0, 'precio_central_oeste': 58383.2, 'lista_central_oeste': 72979.0, 'precio_farmaonline': None, 'lista_farmaonline': None}
+2026-06-04 12:53:03 | INFO     | scraper | ── Scrapeando: Caviahue Agua Termal Volcánica 170 ml
+2026-06-04 12:53:09 | INFO     | scraper.farmacity | OK | precio=25200.0 | lista=36000.0 | https://www.farmacity.com/agua-termal-volcanica-caviahue-x-170-ml/p
+2026-06-04 12:53:25 | ERROR    | scraper.selma | ERROR en https://selmadigital.com/shop?search=AGUA%20TERMAL%20CAVIAHUE&handler=algolia: Message: 
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c5cc0d <unknown>
+#3 0x55ae87c5ce51 <unknown>
+#4 0x55ae87ca7b24 <unknown>
+#5 0x55ae87ca4cbf <unknown>
+#6 0x55ae87c50222 <unknown>
+#7 0x55ae87c51011 <unknown>
+#8 0x55ae881d0a0b <unknown>
+#9 0x55ae881d392d <unknown>
+#10 0x55ae881bd948 <unknown>
+#11 0x55ae881d44c0 <unknown>
+#12 0x55ae881a4560 <unknown>
+#13 0x55ae881f7dd8 <unknown>
+#14 0x55ae881f7f75 <unknown>
+#15 0x55ae88209bce <unknown>
+#16 0x7ff581e9caa4 <unknown>
+#17 0x7ff581f29c6c <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 53, in obtener_precios
+    precio, lista = self._scrape(url)
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 224, in _scrape
+    self.wait.until(
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c5cc0d <unknown>
+#3 0x55ae87c5ce51 <unknown>
+#4 0x55ae87ca7b24 <unknown>
+#5 0x55ae87ca4cbf <unknown>
+#6 0x55ae87c50222 <unknown>
+#7 0x55ae87c51011 <unknown>
+#8 0x55ae881d0a0b <unknown>
+#9 0x55ae881d392d <unknown>
+#10 0x55ae881bd948 <unknown>
+#11 0x55ae881d44c0 <unknown>
+#12 0x55ae881a4560 <unknown>
+#13 0x55ae881f7dd8 <unknown>
+#14 0x55ae881f7f75 <unknown>
+#15 0x55ae88209bce <unknown>
+#16 0x7ff581e9caa4 <unknown>
+#17 0x7ff581f29c6c <unknown>
+
+2026-06-04 12:53:30 | INFO     | scraper.farmaonline | OK | precio=25200.0 | lista=36000.0 | https://www.farmaonline.com/caviahue-agua-termal-volcnica-aerosol-170-ml-8041567/p
+2026-06-04 12:53:30 | INFO     | scraper.central_oeste | OK | precio=24000.2 | lista=34286.0 | https://www.centraloeste.com.ar/7798120265869-caviahue-agua-thermal-170ml-volcanica.html
+2026-06-04 12:53:31 | INFO     | scraper.farmaplus | OK | precio=25200.0 | lista=36000.0 | https://www.farmaplus.com.ar/agua-termal-volcanica-caviahue-de-170ml-barr/p
+2026-06-04 12:53:31 | DEBUG    | scraper | SKU reutilizado del CSV: 7798120265869.0
+2026-06-04 12:53:31 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Caviahue Agua Termal Volcánica 170 ml', 'sku': '7798120265869.0', 'precio_farmacity': 25200.0, 'lista_farmacity': 36000.0, 'precio_farmaplus': 25200.0, 'lista_farmaplus': 36000.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 24000.2, 'lista_central_oeste': 34286.0, 'precio_farmaonline': 25200.0, 'lista_farmaonline': 36000.0}
+2026-06-04 12:53:31 | INFO     | scraper | ── Scrapeando: Vichy Mineral 89 Concentrado Fortificante y Reconstituyente 50 ml
+2026-06-04 12:53:34 | INFO     | scraper.farmacity | OK | precio=65453.0 | lista=93505.0 | https://www.farmacity.com/mineral-89-concentrado-fortificante-y-reconstituyente-x-50-ml/p
+2026-06-04 12:53:36 | INFO     | scraper.selma | OK | precio=65443.0 | lista=93505.0 | https://selmadigital.com/p/mineral-89-fortificante-reconstituyente-x-50-ml/ccd6c566-b105-4262-a14e-1994c4a6f02e
+2026-06-04 12:53:55 | ERROR    | scraper.farmaonline | ERROR en https://www.farmaonline.com/vichy-mineral-89-serum-de-cido-hyalurnico-fortificante-y-reparador-50-ml-8032886/p: Message: 
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c5cc0d <unknown>
+#3 0x55ae87c5ce51 <unknown>
+#4 0x55ae87ca7b24 <unknown>
+#5 0x55ae87ca4cbf <unknown>
+#6 0x55ae87c50222 <unknown>
+#7 0x55ae87c51011 <unknown>
+#8 0x55ae881d0a0b <unknown>
+#9 0x55ae881d392d <unknown>
+#10 0x55ae881bd948 <unknown>
+#11 0x55ae881d44c0 <unknown>
+#12 0x55ae881a4560 <unknown>
+#13 0x55ae881f7dd8 <unknown>
+#14 0x55ae881f7f75 <unknown>
+#15 0x55ae88209bce <unknown>
+#16 0x7ff581e9caa4 <unknown>
+#17 0x7ff581f29c6c <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 53, in obtener_precios
+    precio, lista = self._scrape(url)
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 132, in _scrape
+    return _extraer_precios_vtex_principal(self.driver, self.wait)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 76, in _extraer_precios_vtex_principal
+    selling_elem = wait.until(
+                   ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c5cc0d <unknown>
+#3 0x55ae87c5ce51 <unknown>
+#4 0x55ae87ca7b24 <unknown>
+#5 0x55ae87ca4cbf <unknown>
+#6 0x55ae87c50222 <unknown>
+#7 0x55ae87c51011 <unknown>
+#8 0x55ae881d0a0b <unknown>
+#9 0x55ae881d392d <unknown>
+#10 0x55ae881bd948 <unknown>
+#11 0x55ae881d44c0 <unknown>
+#12 0x55ae881a4560 <unknown>
+#13 0x55ae881f7dd8 <unknown>
+#14 0x55ae881f7f75 <unknown>
+#15 0x55ae88209bce <unknown>
+#16 0x7ff581e9caa4 <unknown>
+#17 0x7ff581f29c6c <unknown>
+
+2026-06-04 12:53:56 | INFO     | scraper.central_oeste | OK | precio=65450.0 | lista=93500.0 | https://www.centraloeste.com.ar/vichy-hidratante-facial-x-50ml-mineral-89.html
+2026-06-04 12:53:56 | INFO     | scraper.farmaplus | OK | precio=60605.0 | lista=86579.0 | https://www.farmaplus.com.ar/vichy-mineral-89-fortificante-reconstituyente-50ml-barr/p
+2026-06-04 12:53:56 | DEBUG    | scraper | SKU reutilizado del CSV: 3337875543248.0
+2026-06-04 12:53:56 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Vichy Mineral 89 Concentrado Fortificante y Reconstituyente 50 ml', 'sku': '3337875543248.0', 'precio_farmacity': 65453.0, 'lista_farmacity': 93505.0, 'precio_farmaplus': 60605.0, 'lista_farmaplus': 86579.0, 'precio_selma': 65443.0, 'lista_selma': 93505.0, 'precio_central_oeste': 65450.0, 'lista_central_oeste': 93500.0, 'precio_farmaonline': None, 'lista_farmaonline': None}
+2026-06-04 12:53:56 | INFO     | scraper | ── Scrapeando: Vichy Liftactiv Collagen Specialist 16 50 ml
+2026-06-04 12:54:02 | INFO     | scraper.farmacity | OK | precio=86409.0 | lista=123442.0 | https://www.farmacity.com/gel-vichy-liftactiv-collagen-16-x-50-ml/p
+2026-06-04 12:54:03 | INFO     | scraper.selma | OK | precio=86400.0 | lista=123443.0 | https://selmadigital.com/p/crema-gel-efecto-relleno-liftactiv-collagen-specialist-16-x50ml/5f20fd31-1880-43e3-a4d2-98f6020631ff
+2026-06-04 12:54:08 | INFO     | scraper.farmaonline | OK | precio=86410.1 | lista=123443.0 | https://www.farmaonline.com/vichy-8141542/p
+2026-06-04 12:54:08 | INFO     | scraper.central_oeste | OK | precio=86415.0 | lista=123450.0 | https://www.centraloeste.com.ar/3337875945851-colageno-vichy-lifactiv-specialist-16-collagel-x50ml.html
+2026-06-04 12:54:10 | INFO     | scraper.farmaplus | OK | precio=86410.0 | lista=123443.0 | https://www.farmaplus.com.ar/vichy-liftactiv-collagen-specialist-50ml/p
+2026-06-04 12:54:10 | DEBUG    | scraper | SKU reutilizado del CSV: 3337875945851.0
+2026-06-04 12:54:10 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Vichy Liftactiv Collagen Specialist 16 50 ml', 'sku': '3337875945851.0', 'precio_farmacity': 86409.0, 'lista_farmacity': 123442.0, 'precio_farmaplus': 86410.0, 'lista_farmaplus': 123443.0, 'precio_selma': 86400.0, 'lista_selma': 123443.0, 'precio_central_oeste': 86415.0, 'lista_central_oeste': 123450.0, 'precio_farmaonline': 86410.1, 'lista_farmaonline': 123443.0}
+2026-06-04 12:54:10 | INFO     | scraper | ── Scrapeando: CeraVe Crema Hidratante 454 ml
+2026-06-04 12:54:14 | INFO     | scraper.farmacity | OK | precio=47502.0 | lista=59378.0 | https://www.farmacity.com/crema-corporal-cerave-hidratante-x-454-ml/p
+2026-06-04 12:54:15 | INFO     | scraper.selma | OK | precio=47492.0 | lista=59377.0 | https://selmadigital.com/p/crema-hidratante-pote-x454gr/0af93b09-cb0e-433d-986a-d4f58940ff61
+2026-06-04 12:54:19 | INFO     | scraper.farmaonline | OK | precio=47501.6 | lista=59377.0 | https://www.farmaonline.com/cerave-crema-hidratante-454-ml-8121258/p
+2026-06-04 12:54:20 | INFO     | scraper.central_oeste | OK | precio=47520.0 | lista=59400.0 | https://www.centraloeste.com.ar/3337875597388-crema-corporal-cerave-hidratante-x454ml.HTML
+2026-06-04 12:54:21 | INFO     | scraper.farmaplus | OK | precio=47502.0 | lista=59377.0 | https://www.farmaplus.com.ar/cerave-crema-hidratante-con-acido-hialuronico-454ml/p
+2026-06-04 12:54:21 | DEBUG    | scraper | SKU reutilizado del CSV: 3337875597388.0
+2026-06-04 12:54:21 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'CeraVe Crema Hidratante 454 ml', 'sku': '3337875597388.0', 'precio_farmacity': 47502.0, 'lista_farmacity': 59378.0, 'precio_farmaplus': 47502.0, 'lista_farmaplus': 59377.0, 'precio_selma': 47492.0, 'lista_selma': 59377.0, 'precio_central_oeste': 47520.0, 'lista_central_oeste': 59400.0, 'precio_farmaonline': 47501.6, 'lista_farmaonline': 59377.0}
+2026-06-04 12:54:21 | INFO     | scraper | ── Scrapeando: CeraVe Loción Hidratante 236 ml
+2026-06-04 12:54:25 | INFO     | scraper.farmacity | OK | precio=25613.0 | lista=32016.0 | https://www.farmacity.com/locion-corporal-cerave-hidratante-x-236-ml/p
+2026-06-04 12:54:26 | INFO     | scraper.selma | OK | precio=25603.0 | lista=32016.0 | https://selmadigital.com/p/locion-hidratante-x-236-ml/d3f4fda6-5e1a-412f-a265-2f746b584b92
+2026-06-04 12:54:31 | INFO     | scraper.farmaonline | OK | precio=25612.8 | lista=32016.0 | https://www.farmaonline.com/cerave-locin-hidratante-236-ml-8121255/p
+2026-06-04 12:54:31 | INFO     | scraper.central_oeste | OK | precio=25600.0 | lista=32000.0 | https://www.centraloeste.com.ar/3337875597210-locion-corporal-cerave-hidratante-x236ml.html
+2026-06-04 12:54:33 | INFO     | scraper.farmaplus | OK | precio=25613.0 | lista=32016.0 | https://www.farmaplus.com.ar/cerave-locion-hidratante-x-236ml/p
+2026-06-04 12:54:33 | DEBUG    | scraper | SKU reutilizado del CSV: 3337875597210.0
+2026-06-04 12:54:33 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'CeraVe Loción Hidratante 236 ml', 'sku': '3337875597210.0', 'precio_farmacity': 25613.0, 'lista_farmacity': 32016.0, 'precio_farmaplus': 25613.0, 'lista_farmaplus': 32016.0, 'precio_selma': 25603.0, 'lista_selma': 32016.0, 'precio_central_oeste': 25600.0, 'lista_central_oeste': 32000.0, 'precio_farmaonline': 25612.8, 'lista_farmaonline': 32016.0}
+2026-06-04 12:54:33 | INFO     | scraper | ── Scrapeando: ISDIN Fusion Water Color FPS 50 50 ml
+2026-06-04 12:54:38 | INFO     | scraper.farmacity | OK | precio=51412.0 | lista=73446.0 | https://www.farmacity.com/fotoprotector-fluido-isdin-fusion-water-color-fps-50-x-50-ml/p
+2026-06-04 12:54:39 | INFO     | scraper.selma | OK | precio=51397.0 | lista=73445.0 | https://selmadigital.com/p/fotoprotector-spf50-fusion-water-magic-medium-50ml/aa514b1b-1d3b-4b6a-a4cf-e4ced9af7198
+2026-06-04 12:54:45 | INFO     | scraper.farmaonline | OK | precio=51411.58 | lista=73445.12 | https://www.farmaonline.com/isdin-8124236/p?skuId=8037151
+2026-06-04 12:54:45 | INFO     | scraper.central_oeste | OK | precio=51415.0 | lista=73450.0 | https://www.centraloeste.com.ar/isdin-protector-solar-x-50ml-fotoprotector-50-fusion-color-water.html
+2026-06-04 12:54:46 | INFO     | scraper.farmaplus | OK | precio=51411.0 | lista=73445.0 | https://www.farmaplus.com.ar/isdin-protector-solar-foto-fusion-water-color-spf50-50ml/p
+2026-06-04 12:54:46 | DEBUG    | scraper | SKU reutilizado del CSV: 8429420154186.0
+2026-06-04 12:54:46 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'ISDIN Fusion Water Color FPS 50 50 ml', 'sku': '8429420154186.0', 'precio_farmacity': 51412.0, 'lista_farmacity': 73446.0, 'precio_farmaplus': 51411.0, 'lista_farmaplus': 73445.0, 'precio_selma': 51397.0, 'lista_selma': 73445.0, 'precio_central_oeste': 51415.0, 'lista_central_oeste': 73450.0, 'precio_farmaonline': 51411.58, 'lista_farmaonline': 73445.12}
+2026-06-04 12:54:46 | INFO     | scraper | ── Scrapeando: Bioderma Atoderm Crème Ultra Hidratante 500 ml
+2026-06-04 12:54:46 | DEBUG    | scraper.farmacity | URL no configurada para este producto.
+2026-06-04 12:54:46 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:54:52 | INFO     | scraper.farmaonline | OK | precio=76530.26 | lista=None | https://www.farmaonline.com/bioderma-8131551/p
+2026-06-04 12:54:52 | INFO     | scraper.central_oeste | OK | precio=76530.25 | lista=None | https://www.centraloeste.com.ar/3701129805343-crema-bioderma-atoderm-corporal-ultra-fp-x500ml.html
+2026-06-04 12:54:53 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/bioderma-atoderm-creme-ultra-hidratante-500ml/p
+2026-06-04 12:54:53 | DEBUG    | scraper | SKU reutilizado del CSV: 3701129805343.0
+2026-06-04 12:54:53 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Bioderma Atoderm Crème Ultra Hidratante 500 ml', 'sku': '3701129805343.0', 'precio_farmacity': None, 'lista_farmacity': None, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 76530.25, 'lista_central_oeste': None, 'precio_farmaonline': 76530.26, 'lista_farmaonline': None}
+2026-06-04 12:54:53 | INFO     | scraper | ── Scrapeando: Bioderma Sensibio Gel Moussant 200 ml
+2026-06-04 12:54:57 | INFO     | scraper.farmacity | OK | precio=65146.0 | lista=None | https://www.farmacity.com/desmaquillante-bioderma-sensibio-gel-moussant-x-200-ml/p
+2026-06-04 12:54:57 | INFO     | scraper.selma | OK | precio=52114.0 | lista=65146.59 | https://selmadigital.com/p/sensibio-gel-moussant-desmaquillante-rostro-y-ojos-x-200/e0777a74-4163-40d0-aa03-a91fb3105e6f
+2026-06-04 12:55:01 | INFO     | scraper.farmaonline | OK | precio=52117.27 | lista=65146.59 | https://www.farmaonline.com/bioderma-sensibio-gel-moussant-gel-micelar-limpiador-piel-sensible-200-ml-8030429/p
+2026-06-04 12:55:02 | INFO     | scraper.central_oeste | OK | precio=65146.59 | lista=None | https://www.centraloeste.com.ar/3401381507565-desmaquillante-bioderma-sensibio-sensibio-gel-moussant-x200ml.html
+2026-06-04 12:55:02 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/bioderma-sensibio-gel-moussant-para-piel-sensible-200ml/p
+2026-06-04 12:55:02 | DEBUG    | scraper | SKU reutilizado del CSV: 3401381507565.0
+2026-06-04 12:55:02 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Bioderma Sensibio Gel Moussant 200 ml', 'sku': '3401381507565.0', 'precio_farmacity': 65146.0, 'lista_farmacity': None, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': 52114.0, 'lista_selma': 65146.59, 'precio_central_oeste': 65146.59, 'lista_central_oeste': None, 'precio_farmaonline': 52117.27, 'lista_farmaonline': 65146.59}
+2026-06-04 12:55:02 | INFO     | scraper | ── Scrapeando: Eximia Hyalu Sensitive Gel Crema Facial 50 g
+2026-06-04 12:55:02 | DEBUG    | scraper.farmacity | URL no configurada para este producto.
+2026-06-04 12:55:02 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:55:06 | INFO     | scraper.farmaonline | OK | precio=50000.0 | lista=None | https://www.farmaonline.com/eximia-8135906/p
+2026-06-04 12:55:06 | INFO     | scraper.central_oeste | OK | precio=50000.0 | lista=None | https://www.centraloeste.com.ar/7798178624403-crema-eximia-hyalu-gel-sensitive-repar-x50gr.html
+2026-06-04 12:55:07 | INFO     | scraper.farmaplus | OK | precio=45000.0 | lista=50000.0 | https://www.farmaplus.com.ar/eximia-hyalu-sensitive-gel-crema-facial-50g/p
+2026-06-04 12:55:07 | DEBUG    | scraper | SKU reutilizado del CSV: 7798178624403.0
+2026-06-04 12:55:07 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Eximia Hyalu Sensitive Gel Crema Facial 50 g', 'sku': '7798178624403.0', 'precio_farmacity': None, 'lista_farmacity': None, 'precio_farmaplus': 45000.0, 'lista_farmaplus': 50000.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 50000.0, 'lista_central_oeste': None, 'precio_farmaonline': 50000.0, 'lista_farmaonline': None}
+2026-06-04 12:55:07 | INFO     | scraper | ── Scrapeando: Cepage Atophen Sensitive Emulsión 40 ml
+2026-06-04 12:55:11 | INFO     | scraper.farmacity | OK | precio=38500.0 | lista=None | https://www.farmacity.com/atophen-sensitive-emulsion-x-40-ml/p
+2026-06-04 12:55:11 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:55:16 | INFO     | scraper.farmaonline | OK | precio=40500.0 | lista=None | https://www.farmaonline.com/cepage-8134568/p
+2026-06-04 12:55:17 | INFO     | scraper.central_oeste | OK | precio=40499.99 | lista=None | https://www.centraloeste.com.ar/7798178624328-emulsion-cepage-atophen-sensitive-x40gr.html
+2026-06-04 12:55:17 | INFO     | scraper.farmaplus | OK | precio=36450.0 | lista=40500.0 | https://www.farmaplus.com.ar/cepage-atophen-sensitive-emulsion-calmante-y-reparadora-40g/p
+2026-06-04 12:55:17 | DEBUG    | scraper | SKU reutilizado del CSV: 7798178624328.0
+2026-06-04 12:55:17 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Cepage Atophen Sensitive Emulsión 40 ml', 'sku': '7798178624328.0', 'precio_farmacity': 38500.0, 'lista_farmacity': None, 'precio_farmaplus': 36450.0, 'lista_farmaplus': 40500.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 40499.99, 'lista_central_oeste': None, 'precio_farmaonline': 40500.0, 'lista_farmaonline': None}
+2026-06-04 12:55:17 | INFO     | scraper | ── Scrapeando: Eucerin Aquaphor Reparador de Labios SOS 10 ml
+2026-06-04 12:55:21 | INFO     | scraper.farmacity | OK | precio=41947.0 | lista=None | https://www.farmacity.com/reparador-de-labios-eucerin-aquaphor-sos-x-10-ml/p
+2026-06-04 12:55:22 | INFO     | scraper.selma | OK | precio=41947.0 | lista=None | https://selmadigital.com/p/reparador-de-labios-s-o-s-aquaphor-alivio-en-labios-secos-y-agrietados-x10-ml/e756c1c0-aed3-4cf6-a362-bf74d8f16341
+2026-06-04 12:55:26 | INFO     | scraper.farmaonline | OK | precio=33557.59 | lista=41946.99 | https://www.farmaonline.com/eucerin-reparador-de-labios-s-o-s-aquaphor-8115899/p
+2026-06-04 12:55:26 | INFO     | scraper.central_oeste | OK | precio=41950.0 | lista=None | https://www.centraloeste.com.ar/4005800268731-reparador-labial-eucerin-aquaphor-sos-x10ml-1.html
+2026-06-04 12:55:27 | INFO     | scraper.farmaplus | OK | precio=37752.0 | lista=41947.0 | https://www.farmaplus.com.ar/eucerin-aquaphor-reparador-de-labios-sos-balsamo-x-10-ml-barr/p
+2026-06-04 12:55:27 | DEBUG    | scraper | SKU reutilizado del CSV: 4005800268731.0
+2026-06-04 12:55:27 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Eucerin Aquaphor Reparador de Labios SOS 10 ml', 'sku': '4005800268731.0', 'precio_farmacity': 41947.0, 'lista_farmacity': None, 'precio_farmaplus': 37752.0, 'lista_farmaplus': 41947.0, 'precio_selma': 41947.0, 'lista_selma': None, 'precio_central_oeste': 41950.0, 'lista_central_oeste': None, 'precio_farmaonline': 33557.59, 'lista_farmaonline': 41946.99}
+2026-06-04 12:55:27 | INFO     | scraper | ── Scrapeando: Eucerin Sun Pigment Control FPS 50 50 ml
+2026-06-04 12:55:31 | INFO     | scraper.farmacity | OK | precio=80837.0 | lista=None | https://www.farmacity.com/protector-solar-eucerin-sun-pigment-control-fps-50-x-50-ml/p
+2026-06-04 12:55:31 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:55:37 | INFO     | scraper.farmaonline | OK | precio=80834.3 | lista=None | https://www.farmaonline.com/eucerin-protector-solar-facial-pigment-control-fps-50-8039879/p
+2026-06-04 12:55:37 | INFO     | scraper.central_oeste | OK | precio=75900.0 | lista=None | https://www.centraloeste.com.ar/protector-solar-eucerin-sun-fps50-pigment-control-x50ml.html
+2026-06-04 12:55:39 | INFO     | scraper.farmaplus | OK | precio=68311.0 | lista=75901.0 | https://www.farmaplus.com.ar/eucerin-pigment-control-protector-solar-fps50-fluido-50ml/p
+2026-06-04 12:55:39 | DEBUG    | scraper | SKU reutilizado del CSV: 4005800241901.0
+2026-06-04 12:55:39 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Eucerin Sun Pigment Control FPS 50 50 ml', 'sku': '4005800241901.0', 'precio_farmacity': 80837.0, 'lista_farmacity': None, 'precio_farmaplus': 68311.0, 'lista_farmaplus': 75901.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 75900.0, 'lista_central_oeste': None, 'precio_farmaonline': 80834.3, 'lista_farmaonline': None}
+2026-06-04 12:55:39 | INFO     | scraper | ── Scrapeando: Rayito de Sol Protector Solar Facial FPS 50 50 g
+2026-06-04 12:55:43 | INFO     | scraper.farmacity | OK | precio=19539.0 | lista=None | https://www.farmacity.com/protector-solar-rayito-de-sol-facial-fps-50-x-50-g/p
+2026-06-04 12:55:43 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:55:49 | INFO     | scraper.farmaonline | OK | precio=19538.1 | lista=None | https://www.farmaonline.com/rayito-de-sol-8140571/p
+2026-06-04 12:55:49 | INFO     | scraper.central_oeste | OK | precio=17500.0 | lista=None | https://www.centraloeste.com.ar/7796045102672-protector-solar-facial-rayito-de-sol-fps50-x50gr.html
+2026-06-04 12:55:51 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/protector-solar-facial-fps-50-x-50g/p
+2026-06-04 12:55:51 | DEBUG    | scraper | SKU reutilizado del CSV: 7796045102672.0
+2026-06-04 12:55:51 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Rayito de Sol Protector Solar Facial FPS 50 50 g', 'sku': '7796045102672.0', 'precio_farmacity': 19539.0, 'lista_farmacity': None, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 17500.0, 'lista_central_oeste': None, 'precio_farmaonline': 19538.1, 'lista_farmaonline': None}
+2026-06-04 12:55:51 | INFO     | scraper | ── Scrapeando: Tortulán Crema Antiarrugas Contorno de Ojos 15 g
+2026-06-04 12:55:55 | INFO     | scraper.farmacity | OK | precio=11324.0 | lista=None | https://www.farmacity.com/crema-antiarrugas-contorno-ojos-x-15-gr/p
+2026-06-04 12:55:55 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:55:59 | INFO     | scraper.farmaonline | OK | precio=8492.78 | lista=11323.7 | https://www.farmaonline.com/tortulan-crema-para-contorno-de-ojos-con-cido-hialurnico-15-gr-6310240/p
+2026-06-04 12:55:59 | INFO     | scraper.central_oeste | OK | precio=7600.0 | lista=9500.0 | https://www.centraloeste.com.ar/7796045750040-tortulan-crema-facial-15gphysio-contorn.html
+2026-06-04 12:56:00 | INFO     | scraper.farmaplus | OK | precio=10294.0 | lista=None | https://www.farmaplus.com.ar/tortulan-antiarrugas-contorno-de-ojos-x-15gr-barr/p
+2026-06-04 12:56:00 | DEBUG    | scraper | SKU reutilizado del CSV: 7796045750040.0
+2026-06-04 12:56:00 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Tortulán Crema Antiarrugas Contorno de Ojos 15 g', 'sku': '7796045750040.0', 'precio_farmacity': 11324.0, 'lista_farmacity': None, 'precio_farmaplus': 10294.0, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 7600.0, 'lista_central_oeste': 9500.0, 'precio_farmaonline': 8492.78, 'lista_farmaonline': 11323.7}
+2026-06-04 12:56:00 | INFO     | scraper | ── Scrapeando: Tortulán Physiologyque Serum Reparación Intensiva 30 ml
+2026-06-04 12:56:06 | INFO     | scraper.farmacity | OK | precio=16288.0 | lista=None | https://www.farmacity.com/serum-tortulan-reparacion-intensiva-x-30-ml/p
+2026-06-04 12:56:06 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:56:24 | ERROR    | scraper.farmaonline | ERROR en https://www.farmaonline.com/tortulan-serum-reparacin-intensiva-30-ml-8120895/p: Message: 
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c5cc0d <unknown>
+#3 0x55ae87c5ce51 <unknown>
+#4 0x55ae87ca7b24 <unknown>
+#5 0x55ae87ca4cbf <unknown>
+#6 0x55ae87c50222 <unknown>
+#7 0x55ae87c51011 <unknown>
+#8 0x55ae881d0a0b <unknown>
+#9 0x55ae881d392d <unknown>
+#10 0x55ae881bd948 <unknown>
+#11 0x55ae881d44c0 <unknown>
+#12 0x55ae881a4560 <unknown>
+#13 0x55ae881f7dd8 <unknown>
+#14 0x55ae881f7f75 <unknown>
+#15 0x55ae88209bce <unknown>
+#16 0x7ff581e9caa4 <unknown>
+#17 0x7ff581f29c6c <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 53, in obtener_precios
+    precio, lista = self._scrape(url)
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 132, in _scrape
+    return _extraer_precios_vtex_principal(self.driver, self.wait)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 76, in _extraer_precios_vtex_principal
+    selling_elem = wait.until(
+                   ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c5cc0d <unknown>
+#3 0x55ae87c5ce51 <unknown>
+#4 0x55ae87ca7b24 <unknown>
+#5 0x55ae87ca4cbf <unknown>
+#6 0x55ae87c50222 <unknown>
+#7 0x55ae87c51011 <unknown>
+#8 0x55ae881d0a0b <unknown>
+#9 0x55ae881d392d <unknown>
+#10 0x55ae881bd948 <unknown>
+#11 0x55ae881d44c0 <unknown>
+#12 0x55ae881a4560 <unknown>
+#13 0x55ae881f7dd8 <unknown>
+#14 0x55ae881f7f75 <unknown>
+#15 0x55ae88209bce <unknown>
+#16 0x7ff581e9caa4 <unknown>
+#17 0x7ff581f29c6c <unknown>
+
+2026-06-04 12:56:24 | INFO     | scraper.central_oeste | OK | precio=9650.2 | lista=13786.0 | https://www.centraloeste.com.ar/7796045750118-serum-tortulan-physio-rep-intensa-x30ml.html
+2026-06-04 12:56:25 | INFO     | scraper.farmaplus | OK | precio=11105.0 | lista=14807.0 | https://www.farmaplus.com.ar/tortulan-physiologyque-serum-reparacion-intensiva-x-30ml-barr/p
+2026-06-04 12:56:25 | DEBUG    | scraper | SKU reutilizado del CSV: 7796045750118.0
+2026-06-04 12:56:25 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Tortulán Physiologyque Serum Reparación Intensiva 30 ml', 'sku': '7796045750118.0', 'precio_farmacity': 16288.0, 'lista_farmacity': None, 'precio_farmaplus': 11105.0, 'lista_farmaplus': 14807.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 9650.2, 'lista_central_oeste': 13786.0, 'precio_farmaonline': None, 'lista_farmaonline': None}
+2026-06-04 12:56:25 | INFO     | scraper | ── Scrapeando: Neutrogena Deep Clean Intensive Gel de Limpieza Facial Grapefruit 150 g
+2026-06-04 12:56:28 | INFO     | scraper.farmacity | OK | precio=10295.0 | lista=None | https://www.farmacity.com/gel-de-limpiza-facial-neutrogena-deep-clean-intensive-x-150-g/p
+2026-06-04 12:56:28 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:56:32 | INFO     | scraper.farmaonline | OK | precio=11212.31 | lista=None | https://www.farmaonline.com/neutrogena-gel-de-limpieza-deep-clean-intensive-grapefruit-150-gr-8015639/p
+2026-06-04 12:56:33 | INFO     | scraper.central_oeste | OK | precio=10300.0 | lista=None | https://www.centraloeste.com.ar/7891010972226-jabon-de-tocador-neutrogena-d-clean-pomelo-x150ml.html
+2026-06-04 12:56:33 | INFO     | scraper.farmaplus | OK | precio=9368.0 | lista=None | https://www.farmaplus.com.ar/gel-de-limpeza-neutrogena-deep-clean-grapefruit-150-gr/p
+2026-06-04 12:56:33 | DEBUG    | scraper | SKU reutilizado del CSV: 7891010972226.0
+2026-06-04 12:56:33 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Neutrogena Deep Clean Intensive Gel de Limpieza Facial Grapefruit 150 g', 'sku': '7891010972226.0', 'precio_farmacity': 10295.0, 'lista_farmacity': None, 'precio_farmaplus': 9368.0, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 10300.0, 'lista_central_oeste': None, 'precio_farmaonline': 11212.31, 'lista_farmaonline': None}
+2026-06-04 12:56:33 | INFO     | scraper | ── Scrapeando: Neutrogena Hydro Boost Water Gel 50 g
+2026-06-04 12:56:38 | INFO     | scraper.farmacity | OK | precio=24961.0 | lista=31201.0 | https://www.farmacity.com/crema-facial-hydro-boost-water-gel-x-50-gr/p
+2026-06-04 12:56:38 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:56:42 | INFO     | scraper.farmaonline | OK | precio=31200.78 | lista=None | https://www.farmaonline.com/neutrogena-crema-hidratante-facial-hydro-boost-water-gel-50-gr-8030088/p
+2026-06-04 12:56:43 | INFO     | scraper.central_oeste | OK | precio=25200.0 | lista=31500.0 | https://www.centraloeste.com.ar/neutrogena-crema-facial-x-50g-hydro-boost-water-gel.html
+2026-06-04 12:56:44 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/hidratante-facial-neutrogena-hydro-boost-water-gel-x-50-gr/p
+2026-06-04 12:56:44 | DEBUG    | scraper | SKU reutilizado del CSV: 7891010882983.0
+2026-06-04 12:56:44 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Neutrogena Hydro Boost Water Gel 50 g', 'sku': '7891010882983.0', 'precio_farmacity': 24961.0, 'lista_farmacity': 31201.0, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 25200.0, 'lista_central_oeste': 31500.0, 'precio_farmaonline': 31200.78, 'lista_farmaonline': None}
+2026-06-04 12:56:44 | INFO     | scraper | ── Scrapeando: Bagóvit A Emulsión Nutritiva Humectante 350 g
+2026-06-04 12:56:48 | INFO     | scraper.farmacity | OK | precio=23365.0 | lista=None | https://www.farmacity.com/emulsion-nutritiva-humectante-corporal-x-350-gr/p
+2026-06-04 12:56:50 | INFO     | scraper.selma | OK | precio=21634.0 | lista=None | https://selmadigital.com/p/emulsion-nutritiva-humectante-dosificador-x350-gr/d3f15da1-2488-4be7-91de-a5cdeeaae220
+2026-06-04 12:56:53 | INFO     | scraper.farmaonline | OK | precio=23365.0 | lista=None | https://www.farmaonline.com/bagovit-emulsin-nutritiva-humectante-350-gr-8009533/p
+2026-06-04 12:56:53 | INFO     | scraper.central_oeste | OK | precio=19700.0 | lista=None | https://www.centraloeste.com.ar/7790375267285-bagovit-crema-corporal-x-350grs-emulsion-con-dosificador.html
+2026-06-04 12:56:54 | INFO     | scraper.farmaplus | OK | precio=21634.0 | lista=None | https://www.farmaplus.com.ar/bagovit-a-emulsion-nutritiva-humectante-350g-barr/p
+2026-06-04 12:56:54 | DEBUG    | scraper | SKU reutilizado del CSV: 7790375267285.0
+2026-06-04 12:56:54 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Bagóvit A Emulsión Nutritiva Humectante 350 g', 'sku': '7790375267285.0', 'precio_farmacity': 23365.0, 'lista_farmacity': None, 'precio_farmaplus': 21634.0, 'lista_farmaplus': None, 'precio_selma': 21634.0, 'lista_selma': None, 'precio_central_oeste': 19700.0, 'lista_central_oeste': None, 'precio_farmaonline': 23365.0, 'lista_farmaonline': None}
+2026-06-04 12:56:54 | INFO     | scraper | ── Scrapeando: Bagóvit Pro Bio Anti-Manchas FPS 40 Crema Facial 50 ml
+2026-06-04 12:56:58 | INFO     | scraper.farmacity | OK | precio=18700.0 | lista=37401.0 | https://www.farmacity.com/crema-facial-bagovit-pro-bio-anti-manchas-fps-40-x-50-ml/p
+2026-06-04 12:56:58 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:57:02 | INFO     | scraper.farmaonline | OK | precio=34629.55 | lista=None | https://www.farmaonline.com/bagovit-crema-facial-pro-bio-antimanchas-50-ml-8118713/p
+2026-06-04 12:57:02 | INFO     | scraper.central_oeste | OK | precio=33200.0 | lista=None | https://www.centraloeste.com.ar/7790375269357-crema-facial-bagovit-pro-bio-antimanchas-x50gr.html
+2026-06-04 12:57:03 | INFO     | scraper.farmaplus | OK | precio=34630.0 | lista=None | https://www.farmaplus.com.ar/bagovit-facial-pro-bio-anti-manchas-crema-de-dia-x-50g-barr/p
+2026-06-04 12:57:03 | DEBUG    | scraper | SKU reutilizado del CSV: 7790375269357.0
+2026-06-04 12:57:03 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Bagóvit Pro Bio Anti-Manchas FPS 40 Crema Facial 50 ml', 'sku': '7790375269357.0', 'precio_farmacity': 18700.0, 'lista_farmacity': 37401.0, 'precio_farmaplus': 34630.0, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 33200.0, 'lista_central_oeste': None, 'precio_farmaonline': 34629.55, 'lista_farmaonline': None}
+2026-06-04 12:57:03 | INFO     | scraper | ── Scrapeando: Avène Cicalfate Crema Reparadora 40 ml
+2026-06-04 12:57:07 | INFO     | scraper.farmacity | OK | precio=45000.0 | lista=None | https://www.farmacity.com/crema-facial-avene-cicalfate-x-40-ml/p
+2026-06-04 12:57:07 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:57:10 | INFO     | scraper.farmaonline | OK | precio=45000.0 | lista=None | https://www.farmaonline.com/avene-cicalfate-crema-reparadora--40-ml-8115381/p
+2026-06-04 12:57:12 | INFO     | scraper.farmaplus | OK | precio=40500.0 | lista=45000.0 | https://www.farmaplus.com.ar/avene-cicalfate--crema-reparadora--x-40-ml-barr/p
+2026-06-04 12:57:13 | INFO     | scraper.central_oeste | OK | precio=45000.0 | lista=None | https://www.centraloeste.com.ar/7799075001380-crema-avene-cicalfate-reparadora-x40ml.html
+2026-06-04 12:57:13 | DEBUG    | scraper | SKU reutilizado del CSV: 7799075001380.0
+2026-06-04 12:57:13 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Avène Cicalfate Crema Reparadora 40 ml', 'sku': '7799075001380.0', 'precio_farmacity': 45000.0, 'lista_farmacity': None, 'precio_farmaplus': 40500.0, 'lista_farmaplus': 45000.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 45000.0, 'lista_central_oeste': None, 'precio_farmaonline': 45000.0, 'lista_farmaonline': None}
+2026-06-04 12:57:13 | INFO     | scraper | ── Scrapeando: Aveno Emulsión Corporal Pieles Sensibles 400 ml
+2026-06-04 12:57:18 | INFO     | scraper.farmacity | OK | precio=41161.0 | lista=54882.0 | https://www.farmacity.com/emulsion-avena-natural-aveno-pieles-sensibles-400-ml/p
+2026-06-04 12:57:20 | INFO     | scraper.selma | OK | precio=41146.0 | lista=54881.78 | https://selmadigital.com/p/emulsion-x-400-ml/aeba9b33-eb29-4296-b1d5-609018729178
+2026-06-04 12:57:23 | INFO     | scraper.farmaonline | OK | precio=54881.78 | lista=None | https://www.farmaonline.com/aveno-emulsin-hidratante-corporal-400ml-8036404/p
+2026-06-04 12:57:24 | INFO     | scraper.central_oeste | OK | precio=36899.8 | lista=52714.0 | https://www.centraloeste.com.ar/7793742004391-aveno-emulsionx400ml.html
+2026-06-04 12:57:24 | INFO     | scraper.farmaplus | OK | precio=41161.0 | lista=54882.0 | https://www.farmaplus.com.ar/aveno-emulsion-corporal-hidratante-suavizante-400ml-barr/p
+2026-06-04 12:57:24 | DEBUG    | scraper | SKU reutilizado del CSV: 7793742004391.0
+2026-06-04 12:57:24 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Aveno Emulsión Corporal Pieles Sensibles 400 ml', 'sku': '7793742004391.0', 'precio_farmacity': 41161.0, 'lista_farmacity': 54882.0, 'precio_farmaplus': 41161.0, 'lista_farmaplus': 54882.0, 'precio_selma': 41146.0, 'lista_selma': 54881.78, 'precio_central_oeste': 36899.8, 'lista_central_oeste': 52714.0, 'precio_farmaonline': 54881.78, 'lista_farmaonline': None}
+2026-06-04 12:57:24 | INFO     | scraper | ── Scrapeando: A-Derma Exomega Control Crema Emoliente 400 ml
+2026-06-04 12:57:28 | INFO     | scraper.farmacity | OK | precio=13094.0 | lista=None | https://www.farmacity.com/crema-emoliente-a-derma-exomega-control-x-400-ml/p
+2026-06-04 12:57:28 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:57:31 | INFO     | scraper.farmaonline | OK | precio=88000.0 | lista=None | https://www.farmaonline.com/aderma-exomega-control-crema-400-ml-8038567/p
+2026-06-04 12:57:32 | INFO     | scraper.central_oeste | OK | precio=88000.0 | lista=None | https://www.centraloeste.com.ar/7798095419724-crema-facial-a-derma-exomega-x400ml.html
+2026-06-04 12:57:33 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/crema-hidratante-a-derma-exomega-control-corporal-400ml/p
+2026-06-04 12:57:33 | DEBUG    | scraper | SKU reutilizado del CSV: 7798095419724.0
+2026-06-04 12:57:33 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'A-Derma Exomega Control Crema Emoliente 400 ml', 'sku': '7798095419724.0', 'precio_farmacity': 13094.0, 'lista_farmacity': None, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 88000.0, 'lista_central_oeste': None, 'precio_farmaonline': 88000.0, 'lista_farmaonline': None}
+2026-06-04 12:57:33 | INFO     | scraper | ── Scrapeando: Elvive Dream Liso Serum 100 ml
+2026-06-04 12:57:35 | ERROR    | scraper.farmacity | ERROR en https://www.farmacity.com/serum-elvive-dream-liso-x-100-ml/p: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c0f89b <unknown>
+#3 0x55ae87c1211b <unknown>
+#4 0x55ae87c121c3 <unknown>
+#5 0x55ae87c58640 <unknown>
+#6 0x55ae87c51a87 <unknown>
+#7 0x55ae87ca4cbf <unknown>
+#8 0x55ae87c50222 <unknown>
+#9 0x55ae87c51011 <unknown>
+#10 0x55ae881d0a0b <unknown>
+#11 0x55ae881d392d <unknown>
+#12 0x55ae881bd948 <unknown>
+#13 0x55ae881d44c0 <unknown>
+#14 0x55ae881a4560 <unknown>
+#15 0x55ae881f7dd8 <unknown>
+#16 0x55ae881f7f75 <unknown>
+#17 0x55ae88209bce <unknown>
+#18 0x7ff581e9caa4 <unknown>
+#19 0x7ff581f29c6c <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 53, in obtener_precios
+    precio, lista = self._scrape(url)
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 115, in _scrape
+    return _extraer_precios_vtex_principal(self.driver, self.wait)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 81, in _extraer_precios_vtex_principal
+    precio = limpiar_precio(selling_elem.text)
+                            ^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 105, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c0f89b <unknown>
+#3 0x55ae87c1211b <unknown>
+#4 0x55ae87c121c3 <unknown>
+#5 0x55ae87c58640 <unknown>
+#6 0x55ae87c51a87 <unknown>
+#7 0x55ae87ca4cbf <unknown>
+#8 0x55ae87c50222 <unknown>
+#9 0x55ae87c51011 <unknown>
+#10 0x55ae881d0a0b <unknown>
+#11 0x55ae881d392d <unknown>
+#12 0x55ae881bd948 <unknown>
+#13 0x55ae881d44c0 <unknown>
+#14 0x55ae881a4560 <unknown>
+#15 0x55ae881f7dd8 <unknown>
+#16 0x55ae881f7f75 <unknown>
+#17 0x55ae88209bce <unknown>
+#18 0x7ff581e9caa4 <unknown>
+#19 0x7ff581f29c6c <unknown>
+
+2026-06-04 12:57:35 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:57:40 | INFO     | scraper.farmaonline | OK | precio=9995.0 | lista=19990.0 | https://www.farmaonline.com/elvive-8138831/p
+2026-06-04 12:57:40 | INFO     | scraper.central_oeste | OK | precio=13000.2 | lista=21667.0 | https://www.centraloeste.com.ar/7509552979558-serum-capilar-elvive-dream-liso-x100ml.html
+2026-06-04 12:57:41 | INFO     | scraper.farmaplus | OK | precio=19990.0 | lista=None | https://www.farmaplus.com.ar/serum-elvive-dream-liso-100ml/p
+2026-06-04 12:57:41 | DEBUG    | scraper | SKU reutilizado del CSV: 7509552979558.0
+2026-06-04 12:57:41 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Elvive Dream Liso Serum 100 ml', 'sku': '7509552979558.0', 'precio_farmacity': None, 'lista_farmacity': None, 'precio_farmaplus': 19990.0, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 13000.2, 'lista_central_oeste': 21667.0, 'precio_farmaonline': 9995.0, 'lista_farmaonline': 19990.0}
+2026-06-04 12:57:41 | INFO     | scraper | ── Scrapeando: Maybelline Lash Sensational Sky High Waterproof 7.2 ml
+2026-06-04 12:57:45 | INFO     | scraper.farmacity | OK | precio=32893.0 | lista=46990.0 | https://www.farmacity.com/mascara-de-pestanas-maybelline-sensational-sky-high-waterproof-x-7-2-ml/p
+2026-06-04 12:57:45 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:57:49 | INFO     | scraper.farmaonline | OK | precio=32893.0 | lista=46990.0 | https://www.farmaonline.com/maybelline-mascara-de-pestaas-sky-high-very-black-washable-8121647/p
+2026-06-04 12:57:50 | INFO     | scraper.central_oeste | OK | precio=32893.0 | lista=46990.0 | https://www.centraloeste.com.ar/41554590500-mascara-de-pestanas-maybelline-lash-sensational-sky-high-wsh.html
+2026-06-04 12:57:51 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/mascara-de-pestanas-maybelline-sky-high-very-black-wsh/p
+2026-06-04 12:57:51 | DEBUG    | scraper | SKU reutilizado del CSV: 41554590500.0
+2026-06-04 12:57:51 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Maybelline Lash Sensational Sky High Waterproof 7.2 ml', 'sku': '41554590500.0', 'precio_farmacity': 32893.0, 'lista_farmacity': 46990.0, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 32893.0, 'lista_central_oeste': 46990.0, 'precio_farmaonline': 32893.0, 'lista_farmaonline': 46990.0}
+2026-06-04 12:57:51 | INFO     | scraper | ── Scrapeando: L'Oréal Paris Revitalift Retinol Día 50 ml
+2026-06-04 12:57:56 | INFO     | scraper.farmacity | OK | precio=48990.0 | lista=None | https://www.farmacity.com/crema-loreal-paris-revitalift-retinol-dia-x-50-ml/p
+2026-06-04 12:57:56 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:58:00 | INFO     | scraper.farmaonline | OK | precio=48990.0 | lista=None | https://www.farmaonline.com/loreal-paris-8131202/p
+2026-06-04 12:58:02 | INFO     | scraper.farmaplus | OK | precio=48990.0 | lista=None | https://www.farmaplus.com.ar/crema-dia-revitalift-pro-retinol-day-cream-fps17-50ml/p
+2026-06-04 12:58:03 | INFO     | scraper.central_oeste | OK | precio=32400.0 | lista=54000.0 | https://www.centraloeste.com.ar/7509552898255-crema-facial-loreal-revitalift-retinol-day-cream-x50ml.html
+2026-06-04 12:58:03 | DEBUG    | scraper | SKU reutilizado del CSV: 7509552898255.0
+2026-06-04 12:58:03 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': "L'Oréal Paris Revitalift Retinol Día 50 ml", 'sku': '7509552898255.0', 'precio_farmacity': 48990.0, 'lista_farmacity': None, 'precio_farmaplus': 48990.0, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 32400.0, 'lista_central_oeste': 54000.0, 'precio_farmaonline': 48990.0, 'lista_farmaonline': None}
+2026-06-04 12:58:03 | INFO     | scraper | ── Scrapeando: Dove Sérum Corporal Tono Uniforme Niacinamida 400 ml
+2026-06-04 12:58:06 | INFO     | scraper.farmacity | OK | precio=15546.0 | lista=25910.0 | https://www.farmacity.com/serum-corporal-tono-uniforme-niacinamida-x-400-ml/p
+2026-06-04 12:58:06 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:58:25 | ERROR    | scraper.farmaonline | ERROR en https://www.farmaonline.com/dove-8133245/p: Message: 
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c5cc0d <unknown>
+#3 0x55ae87c5ce51 <unknown>
+#4 0x55ae87ca7b24 <unknown>
+#5 0x55ae87ca4cbf <unknown>
+#6 0x55ae87c50222 <unknown>
+#7 0x55ae87c51011 <unknown>
+#8 0x55ae881d0a0b <unknown>
+#9 0x55ae881d392d <unknown>
+#10 0x55ae881bd948 <unknown>
+#11 0x55ae881d44c0 <unknown>
+#12 0x55ae881a4560 <unknown>
+#13 0x55ae881f7dd8 <unknown>
+#14 0x55ae881f7f75 <unknown>
+#15 0x55ae88209bce <unknown>
+#16 0x7ff581e9caa4 <unknown>
+#17 0x7ff581f29c6c <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 53, in obtener_precios
+    precio, lista = self._scrape(url)
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 132, in _scrape
+    return _extraer_precios_vtex_principal(self.driver, self.wait)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/comparador-de-precios-farmacias-v4/comparador-de-precios-farmacias-v4/farmacias.py", line 76, in _extraer_precios_vtex_principal
+    selling_elem = wait.until(
+                   ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55ae8820b16a <unknown>
+#1 0x55ae87c086b9 <unknown>
+#2 0x55ae87c5cc0d <unknown>
+#3 0x55ae87c5ce51 <unknown>
+#4 0x55ae87ca7b24 <unknown>
+#5 0x55ae87ca4cbf <unknown>
+#6 0x55ae87c50222 <unknown>
+#7 0x55ae87c51011 <unknown>
+#8 0x55ae881d0a0b <unknown>
+#9 0x55ae881d392d <unknown>
+#10 0x55ae881bd948 <unknown>
+#11 0x55ae881d44c0 <unknown>
+#12 0x55ae881a4560 <unknown>
+#13 0x55ae881f7dd8 <unknown>
+#14 0x55ae881f7f75 <unknown>
+#15 0x55ae88209bce <unknown>
+#16 0x7ff581e9caa4 <unknown>
+#17 0x7ff581f29c6c <unknown>
+
+2026-06-04 12:58:25 | INFO     | scraper.central_oeste | OK | precio=15500.4 | lista=25834.0 | https://www.centraloeste.com.ar/7506306252875-serum-dove-corporal-niacinamida-x400ml.html
+2026-06-04 12:58:26 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | https://www.farmaplus.com.ar/serum-coporal-dove-niacinamida-reduce-las-manchas-400ml/p
+2026-06-04 12:58:26 | DEBUG    | scraper | SKU reutilizado del CSV: 7506306252875.0
+2026-06-04 12:58:26 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Dove Sérum Corporal Tono Uniforme Niacinamida 400 ml', 'sku': '7506306252875.0', 'precio_farmacity': 15546.0, 'lista_farmacity': 25910.0, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 15500.4, 'lista_central_oeste': 25834.0, 'precio_farmaonline': None, 'lista_farmaonline': None}
+2026-06-04 12:58:26 | INFO     | scraper | ── Scrapeando: AMPK Creatina HCL Ultra Concentrada 60 cápsulas
+2026-06-04 12:58:31 | INFO     | scraper.farmacity | OK | precio=34825.0 | lista=49750.0 | https://www.farmacity.com/suplemento-deportivo-ampk-creatina-hcl-ultra-concentrada-x-60-caps/p
+2026-06-04 12:58:32 | INFO     | scraper.selma | OK | precio=37240.0 | lista=53200.0 | https://selmadigital.com/p/ampk-creatina-h-cl-x60-capsulas/c77d282b-0da5-402e-a47a-2eb42c53fb82
+2026-06-04 12:58:35 | INFO     | scraper.farmaonline | OK | precio=37240.0 | lista=53200.0 | https://www.farmaonline.com/ampk-8140655/p
+2026-06-04 12:58:35 | INFO     | scraper.central_oeste | OK | precio=37240.0 | lista=53200.0 | https://www.centraloeste.com.ar/7798008191693-ampk-creatina-hcl-original-c-ps-x-60.html
+2026-06-04 12:58:36 | INFO     | scraper.farmaplus | OK | precio=None | lista=None | http://farmaplus.com.ar/ampk-creatina-hcl-750mg-capsulas-x60/p
+2026-06-04 12:58:36 | DEBUG    | scraper.farmaplus | Candidatos SKU: 0
+2026-06-04 12:58:36 | WARNING  | scraper.farmaplus | SKU no encontrado en http://farmaplus.com.ar/ampk-creatina-hcl-750mg-capsulas-x60/p
+2026-06-04 12:58:36 | WARNING  | scraper | No se pudo obtener SKU para: AMPK Creatina HCL Ultra Concentrada 60 cápsulas
+2026-06-04 12:58:36 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'AMPK Creatina HCL Ultra Concentrada 60 cápsulas', 'sku': None, 'precio_farmacity': 34825.0, 'lista_farmacity': 49750.0, 'precio_farmaplus': None, 'lista_farmaplus': None, 'precio_selma': 37240.0, 'lista_selma': 53200.0, 'precio_central_oeste': 37240.0, 'lista_central_oeste': 53200.0, 'precio_farmaonline': 37240.0, 'lista_farmaonline': 53200.0}
+2026-06-04 12:58:36 | INFO     | scraper | ── Scrapeando: Ultraflex Gluco Colágeno Hidrolizado 15 sobres
+2026-06-04 12:58:42 | INFO     | scraper.farmacity | OK | precio=19876.0 | lista=26501.0 | https://www.farmacity.com/suplemento-dietario-ultraflex-colageno-hidrolizado-x-15-sobres-x-13-5-g-c-u/p
+2026-06-04 12:58:44 | INFO     | scraper.selma | OK | precio=24200.0 | lista=27500.0 | https://selmadigital.com/p/gluco-colageno-hidrolizado-x-15-sobres/678584a9-1ebd-4af9-85e7-3caf6ad32ff3
+2026-06-04 12:58:47 | INFO     | scraper.farmaonline | OK | precio=29700.0 | lista=None | https://www.farmaonline.com/ultraflex-8126188/p
+2026-06-04 12:58:48 | INFO     | scraper.farmaplus | OK | precio=27500.0 | lista=None | https://www.farmaplus.com.ar/ultraflex-gluco-colageno-glucosamina-ac--hialuronico-15-sob--1/p
+2026-06-04 12:58:49 | INFO     | scraper.central_oeste | OK | precio=27500.0 | lista=None | https://www.centraloeste.com.ar/7795371459672-ultraflex-suplemento-dietario-x15sob-gluco.html
+2026-06-04 12:58:49 | DEBUG    | scraper | SKU reutilizado del CSV: 7795371459672.0
+2026-06-04 12:58:49 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Ultraflex Gluco Colágeno Hidrolizado 15 sobres', 'sku': '7795371459672.0', 'precio_farmacity': 19876.0, 'lista_farmacity': 26501.0, 'precio_farmaplus': 27500.0, 'lista_farmaplus': None, 'precio_selma': 24200.0, 'lista_selma': 27500.0, 'precio_central_oeste': 27500.0, 'lista_central_oeste': None, 'precio_farmaonline': 29700.0, 'lista_farmaonline': None}
+2026-06-04 12:58:49 | INFO     | scraper | ── Scrapeando: ENA Creatina Monohidrato Micronizada 300 g
+2026-06-04 12:58:53 | INFO     | scraper.farmacity | OK | precio=40000.0 | lista=None | https://www.farmacity.com/suplemento-dietario-creatina-monohidrato-en-polvo-x-300-gr/p
+2026-06-04 12:58:54 | INFO     | scraper.selma | OK | precio=30900.0 | lista=40000.0 | https://selmadigital.com/p/creatina-micronizada-sin-sabor-x-300-gr/31170c80-9c4b-4b76-8ce9-1ccfdd2225ae
+2026-06-04 12:58:58 | INFO     | scraper.farmaonline | OK | precio=32000.0 | lista=40000.0 | https://www.farmaonline.com/ena-creatina-micronizada-sabor-neutro-300-gr-8034782/p
+2026-06-04 12:58:59 | INFO     | scraper.central_oeste | OK | precio=28000.0 | lista=40000.0 | https://www.centraloeste.com.ar/7792981010026-ena-suplemento-deportivo-monohidrato-x-300grs.html
+2026-06-04 12:58:59 | INFO     | scraper.farmaplus | OK | precio=30000.0 | lista=40000.0 | https://www.farmaplus.com.ar/-creatina-micronizada-neutro-300g/p
+2026-06-04 12:58:59 | DEBUG    | scraper | SKU reutilizado del CSV: 7792981010026.0
+2026-06-04 12:58:59 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'ENA Creatina Monohidrato Micronizada 300 g', 'sku': '7792981010026.0', 'precio_farmacity': 40000.0, 'lista_farmacity': None, 'precio_farmaplus': 30000.0, 'lista_farmaplus': 40000.0, 'precio_selma': 30900.0, 'lista_selma': 40000.0, 'precio_central_oeste': 28000.0, 'lista_central_oeste': 40000.0, 'precio_farmaonline': 32000.0, 'lista_farmaonline': 40000.0}
+2026-06-04 12:58:59 | INFO     | scraper | ── Scrapeando: Cetaphil Crema Hidratante 453 g
+2026-06-04 12:59:04 | INFO     | scraper.farmacity | OK | precio=43644.0 | lista=62349.0 | https://www.farmacity.com/crema-corporal-cetaphil-hidratante-x-453-g/p
+2026-06-04 12:59:04 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:59:10 | INFO     | scraper.farmaonline | OK | precio=43644.59 | lista=62349.42 | https://www.farmaonline.com/cetaphil-crema-hidratante-453-gr-8010441/p
+2026-06-04 12:59:11 | INFO     | scraper.central_oeste | OK | precio=40425.0 | lista=57750.0 | https://www.centraloeste.com.ar/3466320012838-crema-corporal-cetaphil-hidra-x453ml.html
+2026-06-04 12:59:12 | INFO     | scraper.farmaplus | OK | precio=40412.0 | lista=57731.0 | https://www.farmaplus.com.ar/cetaphil-crema-hidratante-x453-gr-piel-extra-seca-y-sensible/p
+2026-06-04 12:59:12 | DEBUG    | scraper | SKU reutilizado del CSV: 3466320012838.0
+2026-06-04 12:59:12 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Cetaphil Crema Hidratante 453 g', 'sku': '3466320012838.0', 'precio_farmacity': 43644.0, 'lista_farmacity': 62349.0, 'precio_farmaplus': 40412.0, 'lista_farmaplus': 57731.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 40425.0, 'lista_central_oeste': 57750.0, 'precio_farmaonline': 43644.59, 'lista_farmaonline': 62349.42}
+2026-06-04 12:59:12 | INFO     | scraper | ── Scrapeando: Cetaphil Limpiador Crema Espuma Hidratante 473 ml
+2026-06-04 12:59:16 | INFO     | scraper.farmacity | OK | precio=38781.0 | lista=55402.0 | https://www.farmacity.com/crema-limpiadora-cetaphil-espuma-hidratante-x-473-ml/p
+2026-06-04 12:59:16 | DEBUG    | scraper.selma | URL no configurada para este producto.
+2026-06-04 12:59:20 | INFO     | scraper.farmaonline | OK | precio=38781.4 | lista=55402.0 | https://www.farmaonline.com/cetaphil-8138331/p
+2026-06-04 12:59:21 | INFO     | scraper.central_oeste | OK | precio=35909.99 | lista=51299.99 | https://www.centraloeste.com.ar/3499320015615-espuma-de-limpieza-cetaphil-x473ml.html
+2026-06-04 12:59:23 | INFO     | scraper.farmaplus | OK | precio=32263.0 | lista=46090.0 | https://www.farmaplus.com.ar/cetaphil-limpiador-crema-espuma-473ml/p
+2026-06-04 12:59:23 | DEBUG    | scraper | SKU reutilizado del CSV: 3499320015615.0
+2026-06-04 12:59:23 | DEBUG    | scraper | Fila generada: {'fecha': '2026-06-04', 'producto': 'Cetaphil Limpiador Crema Espuma Hidratante 473 ml', 'sku': '3499320015615.0', 'precio_farmacity': 38781.0, 'lista_farmacity': 55402.0, 'precio_farmaplus': 32263.0, 'lista_farmaplus': 46090.0, 'precio_selma': None, 'lista_selma': None, 'precio_central_oeste': 35909.99, 'lista_central_oeste': 51299.99, 'precio_farmaonline': 38781.4, 'lista_farmaonline': 55402.0}
+2026-06-04 12:59:23 | INFO     | scraper | ChromeDriver cerrado.
+2026-06-04 12:59:23 | INFO     | scraper | CSV actualizado: precios.csv (50 filas nuevas)
+2026-06-04 12:59:23 | INFO     | scraper | Actualizando Google Sheets...
+2026-06-04 12:59:25 | INFO     | scraper.sheets | Sheets actualizado: 50 filas agregadas.
+2026-06-04 12:59:25 | INFO     | scraper | Scraper finalizado exitosamente.
